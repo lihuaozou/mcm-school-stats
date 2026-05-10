@@ -1,0 +1,118 @@
+{
+  "record_count": 32214,
+  "unique_team_count": 32214,
+  "institution_count": 2085,
+  "duplicate_team_count": 0,
+  "duplicate_teams": {},
+  "invalid_team_id_count": 0,
+  "problem_mismatch_count": 0,
+  "blank_institution_count": 469,
+  "raw_institution_suppressed_count": 4703,
+  "blank_country_count": 0,
+  "country_text_in_special_award_count": 0,
+  "special_award_count": 425,
+  "pdf_team_id_checks": {
+    "2026_ICM_Problem_D_Results.pdf": {
+      "pdf_team_ids": 1835,
+      "parsed_team_ids": 1835,
+      "missing_from_json": [],
+      "extra_in_json": []
+    },
+    "2026_ICM_Problem_E_Results.pdf": {
+      "pdf_team_ids": 1649,
+      "parsed_team_ids": 1649,
+      "missing_from_json": [],
+      "extra_in_json": []
+    },
+    "2026_ICM_Problem_F_Results.pdf": {
+      "pdf_team_ids": 1776,
+      "parsed_team_ids": 1776,
+      "missing_from_json": [],
+      "extra_in_json": []
+    },
+    "2026_MCM_Problem_A_Results.pdf": {
+      "pdf_team_ids": 8575,
+      "parsed_team_ids": 8575,
+      "missing_from_json": [],
+      "extra_in_json": []
+    },
+    "2026_MCM_Problem_B_Results.pdf": {
+      "pdf_team_ids": 5194,
+      "parsed_team_ids": 5194,
+      "missing_from_json": [],
+      "extra_in_json": []
+    },
+    "2026_MCM_Problem_C_Results.pdf": {
+      "pdf_team_ids": 13185,
+      "parsed_team_ids": 13185,
+      "missing_from_json": [],
+      "extra_in_json": []
+    }
+  },
+  "official_count_diffs": {
+    "A": {
+      "Disqualified": 0,
+      "Finalist": 0,
+      "Honorable Mention": 0,
+      "Meritorious Winner": 0,
+      "Not Judged": 0,
+      "Outstanding Winner": 0,
+      "Successful Participant": 1,
+      "Unsuccessful Participant": 0
+    },
+    "B": {
+      "Disqualified": 0,
+      "Finalist": 0,
+      "Honorable Mention": 0,
+      "Meritorious Winner": 0,
+      "Not Judged": 0,
+      "Outstanding Winner": 0,
+      "Successful Participant": 0,
+      "Unsuccessful Participant": 0
+    },
+    "C": {
+      "Disqualified": 0,
+      "Finalist": 0,
+      "Honorable Mention": 0,
+      "Meritorious Winner": 0,
+      "Not Judged": 0,
+      "Outstanding Winner": 0,
+      "Successful Participant": 0,
+      "Unsuccessful Participant": 0
+    },
+    "D": {
+      "Disqualified": 0,
+      "Finalist": 0,
+      "Honorable Mention": 0,
+      "Meritorious Winner": 0,
+      "Not Judged": 0,
+      "Outstanding Winner": 0,
+      "Successful Participant": 0,
+      "Unsuccessful Participant": 0
+    },
+    "E": {
+      "Disqualified": 0,
+      "Finalist": 0,
+      "Honorable Mention": 0,
+      "Meritorious Winner": 0,
+      "Not Judged": 0,
+      "Outstanding Winner": 0,
+      "Successful Participant": 0,
+      "Unsuccessful Participant": 0
+    },
+    "F": {
+      "Disqualified": 0,
+      "Finalist": 0,
+      "Honorable Mention": 0,
+      "Meritorious Winner": 0,
+      "Not Judged": 0,
+      "Outstanding Winner": 0,
+      "Successful Participant": 0,
+      "Unsuccessful Participant": 0
+    }
+  },
+  "notes": [
+    "Problem A has one more Successful Participant in the detailed team list than in the PDF front-page summary.",
+    "Blank institution rows are preserved as blank because neither line text nor coordinate text contains an institution for those teams."
+  ]
+}

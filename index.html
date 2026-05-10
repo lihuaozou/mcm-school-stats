@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2026 MCM/ICM 学校获奖查询</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">2026 MCM / ICM Results</p>
+          <h1>学校获奖查询与可视化</h1>
+          <p class="subtitle">输入学校英文名，查看该校所有队伍、问题、奖项等级与特别奖，并生成学校获奖分布图。</p>
+        </div>
+        <div class="summary-grid" id="summaryCards" aria-live="polite"></div>
+      </section>
+
+      <section class="search-panel">
+        <div class="search-box">
+          <label for="schoolSearch">学校英文名</label>
+          <div class="input-row">
+            <input
+              id="schoolSearch"
+              type="search"
+              autocomplete="off"
+              placeholder="例如 Zhejiang University / Duke University"
+              list="schoolSuggestions"
+            />
+            <button id="clearSearch" type="button" title="清空搜索">×</button>
+          </div>
+          <datalist id="schoolSuggestions"></datalist>
+        </div>
+        <div class="match-list" id="matchList"></div>
+      </section>
+
+      <section class="content-grid">
+        <article class="result-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Selected Institution</p>
+              <h2 id="schoolTitle">请选择一个学校</h2>
+            </div>
+            <div class="pill" id="schoolTotal">0 teams</div>
+          </div>
+
+          <div class="award-chips" id="awardChips"></div>
+
+          <div class="charts-grid">
+            <div class="chart-block">
+              <div class="chart-title">奖项等级人数</div>
+              <canvas id="awardChart" width="720" height="360"></canvas>
+            </div>
+            <div class="chart-block">
+              <div class="chart-title">各题目队伍数</div>
+              <canvas id="problemChart" width="720" height="360"></canvas>
+            </div>
+          </div>
+        </article>
+
+        <aside class="overview-panel">
+          <div class="panel-heading compact">
+            <div>
+              <p class="eyebrow">Overview</p>
+              <h2>获奖学校 Top 20</h2>
+            </div>
+          </div>
+          <canvas id="topChart" width="720" height="620"></canvas>
+          <div class="note" id="dataNote"></div>
+        </aside>
+      </section>
+
+      <section class="table-panel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Team Records</p>
+            <h2>该校完整名单</h2>
+          </div>
+          <div class="table-tools">
+            <select id="designationFilter" aria-label="按奖项筛选">
+              <option value="">全部奖项</option>
+            </select>
+            <select id="problemFilter" aria-label="按问题筛选">
+              <option value="">全部题目</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>队伍编号</th>
+                <th>学校</th>
+                <th>国家/地区</th>
+                <th>竞赛</th>
+                <th>题目</th>
+                <th>奖项等级</th>
+                <th>具体奖项</th>
+                <th>特别奖 / 备注</th>
+                <th>Advisor</th>
+                <th>来源</th>
+                <th>证书</th>
+              </tr>
+            </thead>
+            <tbody id="recordsTable">
+              <tr>
+                <td colspan="11" class="empty">输入学校英文名开始查询。</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
