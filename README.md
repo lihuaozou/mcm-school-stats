@@ -109,3 +109,9 @@ python audit_results.py
 - Folder: `/ (root)`
 
 发布后即可在线访问网站。
+
+默认公开访问地址为：
+
+```text
+https://lihuaozou.github.io/mcm-school-stats/
+```
