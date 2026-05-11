@@ -16,7 +16,7 @@ https://lihuaozou.github.io/mcm-school-stats/
   - `Nanjing University of Posts and` -> `Nanjing University of Posts and Telecommunications`
   - `Huazhong University of Science and` -> `Huazhong University of Science and Technology`
   - `University of Electronic Science and` -> `University of Electronic Science and Technology of China`
-- 为已知学校提供中文名映射，可直接搜索 `南京邮电大学`、`浙江大学` 等中文名称。
+- 为已知学校提供中文名映射，可直接搜索 `南京邮电大学`、`柳州工学院`、`浙江大学` 等中文名称。
 - 展示学校奖项分布、题目分布、题目与奖项热力图、高奖项数量、排名、覆盖题目数、获奖率等分析。
 - 表格展示完整队伍记录：队伍编号、学校、中文名、国家/地区、竞赛、题目、奖项等级、具体奖项、特别奖/备注、Advisor、来源 PDF 和证书。
 - 每条队伍记录提供 COMAP 官方证书链接：
@@ -39,6 +39,7 @@ https://www.comap-math.org/mcm/2026Certs/队伍编号.pdf
 │   ├── awards.json                  # 同步保留的结构化数据
 │   ├── audit_report.json            # 审计报告
 │   ├── blank_institution_rows.csv   # PDF 中未提供可用学校名的队伍清单
+│   ├── missing_chinese_names.csv     # 仍未补中文名的学校清单
 │   └── parse_issues.json            # 解析异常清单
 └── 2026_*_Results.pdf               # COMAP 2026 MCM/ICM A-F 题结果 PDF
 ```
@@ -105,8 +106,9 @@ python audit_results.py
 - 题目错配：0
 - 国家/地区空值：0
 - 6 份 PDF 的队伍号集合与 `data/awards.json` 完全一致，无遗漏、无多余。
-- 已映射中文名的记录：29,389 条。
-- 已映射中文名的学校：717 所。
+- 已映射中文名的记录：30,050 条。
+- 已映射中文名的学校：521 所（按规范化学校名统计）。
+- 仍未补中文名且英文学校名可见的记录：1,695 条，详见 `data/missing_chinese_names.csv`。
 
 已知说明：
 
