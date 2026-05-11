@@ -165,6 +165,7 @@ input[type="search"] {
   outline: 0;
   padding: 0 14px;
   background: transparent;
+  font-size: 15px;
 }
 
 #clearSearch {
@@ -180,6 +181,16 @@ input[type="search"] {
 
 #clearSearch:hover {
   color: var(--ink);
+}
+
+.search-hint {
+  margin: 10px 0 0;
+  border-left: 3px solid var(--accent);
+  padding: 8px 10px;
+  background: rgba(18, 106, 90, 0.07);
+  color: #4b5c68;
+  font-size: 13px;
+  line-height: 1.55;
 }
 
 .match-list {
@@ -479,8 +490,21 @@ a:hover {
 
 @media (max-width: 680px) {
   .app-shell {
-    width: min(100% - 20px, 1480px);
+    width: min(100% - 14px, 1480px);
     padding-top: 10px;
+  }
+
+  .hero {
+    gap: 14px;
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 1.12;
+  }
+
+  .subtitle {
+    font-size: 14px;
   }
 
   .hero,
@@ -489,6 +513,34 @@ a:hover {
   .overview-panel,
   .table-panel {
     padding: 16px;
+  }
+
+  .search-panel {
+    gap: 14px;
+    margin-top: 14px;
+  }
+
+  .input-row {
+    border-radius: 7px;
+  }
+
+  input[type="search"] {
+    min-height: 46px;
+    font-size: 16px;
+  }
+
+  #clearSearch {
+    width: 44px;
+    flex: 0 0 44px;
+  }
+
+  .search-hint {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .match-button {
+    min-height: 50px;
   }
 
   .summary-grid,
@@ -510,5 +562,10 @@ a:hover {
 
   select {
     width: 100%;
+  }
+
+  .table-wrap {
+    max-height: 68vh;
+    -webkit-overflow-scrolling: touch;
   }
 }
