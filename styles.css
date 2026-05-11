@@ -88,6 +88,13 @@ h2 {
   line-height: 1.7;
 }
 
+.school-cn {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 750;
+}
+
 .summary-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -209,6 +216,14 @@ input[type="search"] {
   white-space: nowrap;
 }
 
+.match-cn {
+  display: block;
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+}
+
 .match-count {
   flex: 0 0 auto;
   color: var(--muted);
@@ -300,6 +315,40 @@ input[type="search"] {
   font-weight: 750;
 }
 
+.chart-title.spaced {
+  margin-top: 18px;
+}
+
+.chart-block.wide,
+.analysis-block {
+  grid-column: 1 / -1;
+}
+
+.analysis-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.analysis-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 13px;
+  background: #fff;
+}
+
+.analysis-value {
+  font-size: 24px;
+  font-weight: 850;
+}
+
+.analysis-label {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
 canvas {
   width: 100%;
   height: auto;
@@ -343,7 +392,7 @@ select {
 table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 1380px;
+  min-width: 1480px;
   background: #fff;
 }
 
@@ -422,7 +471,8 @@ a:hover {
   }
 
   .match-list,
-  .award-chips {
+  .award-chips,
+  .analysis-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -443,7 +493,8 @@ a:hover {
 
   .summary-grid,
   .match-list,
-  .award-chips {
+  .award-chips,
+  .analysis-grid {
     grid-template-columns: 1fr;
   }
 

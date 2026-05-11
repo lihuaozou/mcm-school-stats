@@ -12,20 +12,20 @@
         <div>
           <p class="eyebrow">2026 MCM / ICM Results</p>
           <h1>学校获奖查询与可视化</h1>
-          <p class="subtitle">输入学校英文名，查看该校所有队伍、问题、奖项等级与特别奖，并生成学校获奖分布图。</p>
+          <p class="subtitle">输入中文校名、英文校名或队伍编号，查看该校所有队伍、问题、奖项等级与特别奖，并生成学校获奖分布图。</p>
         </div>
         <div class="summary-grid" id="summaryCards" aria-live="polite"></div>
       </section>
 
       <section class="search-panel">
         <div class="search-box">
-          <label for="schoolSearch">学校英文名</label>
+          <label for="schoolSearch">学校 / 队伍查询</label>
           <div class="input-row">
             <input
               id="schoolSearch"
               type="search"
               autocomplete="off"
-              placeholder="例如 Zhejiang University / Duke University"
+              placeholder="例如 南京邮电大学 / Zhejiang University / 2603082"
               list="schoolSuggestions"
             />
             <button id="clearSearch" type="button" title="清空搜索">×</button>
@@ -41,6 +41,7 @@
             <div>
               <p class="eyebrow">Selected Institution</p>
               <h2 id="schoolTitle">请选择一个学校</h2>
+              <p class="school-cn" id="schoolCnTitle"></p>
             </div>
             <div class="pill" id="schoolTotal">0 teams</div>
           </div>
@@ -56,6 +57,14 @@
               <div class="chart-title">各题目队伍数</div>
               <canvas id="problemChart" width="720" height="360"></canvas>
             </div>
+            <div class="chart-block wide">
+              <div class="chart-title">题目 × 奖项热力图</div>
+              <canvas id="heatmapChart" width="960" height="420"></canvas>
+            </div>
+            <div class="analysis-block">
+              <div class="chart-title">学校分析</div>
+              <div class="analysis-grid" id="schoolAnalysis"></div>
+            </div>
           </div>
         </article>
 
@@ -67,6 +76,8 @@
             </div>
           </div>
           <canvas id="topChart" width="720" height="620"></canvas>
+          <div class="chart-title spaced">高奖项 Top 20</div>
+          <canvas id="topHighAwardChart" width="720" height="620"></canvas>
           <div class="note" id="dataNote"></div>
         </aside>
       </section>
@@ -92,6 +103,7 @@
               <tr>
                 <th>队伍编号</th>
                 <th>学校</th>
+                <th>中文名</th>
                 <th>国家/地区</th>
                 <th>竞赛</th>
                 <th>题目</th>
@@ -105,7 +117,7 @@
             </thead>
             <tbody id="recordsTable">
               <tr>
-                <td colspan="11" class="empty">输入学校英文名开始查询。</td>
+                <td colspan="12" class="empty">输入中文校名、英文校名或队伍编号开始查询。</td>
               </tr>
             </tbody>
           </table>

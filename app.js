@@ -42,10 +42,13 @@ const AWARD_CN = {
   "Not Judged": "N",
 };
 
+const HIGH_AWARDS = new Set(["Outstanding Winner", "Finalist", "Meritorious Winner", "Honorable Mention"]);
+
 const state = {
   records: [],
   summary: null,
   institutions: [],
+  globalInstitutionStats: new Map(),
   selectedInstitution: "",
   selectedInstitutionKey: "",
   selectedRows: [],
@@ -81,6 +84,10 @@ function institutionGroupFor(row) {
   return state.institutions.find((item) => item.key === normalize(row.institution));
 }
 
+function displayCn(row) {
+  return row.institution_cn || institutionGroupFor(row)?.cn || "-";
+}
+
 function displayInstitution(row) {
   const group = institutionGroupFor(row);
   const canonical = group?.name || row.institution || "Unknown institution";
@@ -94,6 +101,15 @@ function displayInstitution(row) {
 
 function normalize(value) {
   return String(value || "").trim().toLowerCase();
+}
+
+function compactSearch(value) {
+  return normalize(value).replace(/\s+/g, "");
+}
+
+function displayPercent(value) {
+  if (!Number.isFinite(value)) return "0%";
+  return `${Math.round(value * 10) / 10}%`;
 }
 
 function setupFilters() {
@@ -122,22 +138,48 @@ function buildInstitutionIndex() {
   state.records.forEach((row) => {
     if (!row.institution) return;
     const key = normalize(row.institution);
-    if (!groups.has(key)) groups.set(key, { key, count: 0, variants: new Map() });
+    if (!groups.has(key)) {
+      groups.set(key, {
+        key,
+        count: 0,
+        highAwardCount: 0,
+        variants: new Map(),
+        cnVariants: new Map(),
+        teams: new Set(),
+        problems: new Set(),
+      });
+    }
     const group = groups.get(key);
     group.count += 1;
+    if (HIGH_AWARDS.has(row.designation)) group.highAwardCount += 1;
     group.variants.set(row.institution, (group.variants.get(row.institution) || 0) + 1);
+    if (row.institution_cn) group.cnVariants.set(row.institution_cn, (group.cnVariants.get(row.institution_cn) || 0) + 1);
+    group.teams.add(row.team);
+    group.problems.add(row.problem);
   });
 
   state.institutions = [...groups.values()]
     .map((group) => {
       const variants = [...group.variants.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-      return { ...group, name: variants[0][0], variantNames: variants.map(([name]) => name) };
+      const cnVariants = [...group.cnVariants.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      const cn = cnVariants[0]?.[0] || "";
+      const tokens = [group.key, compactSearch(group.key), cn, compactSearch(cn), ...variants.map(([name]) => name)];
+      return {
+        ...group,
+        cn,
+        searchText: tokens.filter(Boolean).join(" ").toLowerCase(),
+        name: variants[0][0],
+        variantNames: variants.map(([name]) => name),
+      };
     })
     .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
 
+  state.globalInstitutionStats = new Map(state.institutions.map((item, index) => [item.key, { ...item, rank: index + 1 }]));
+
   $("schoolSuggestions").innerHTML = state.institutions
     .slice(0, 700)
-    .map((item) => `<option value="${escapeHtml(item.name)}"></option>`)
+    .flatMap((item) => [item.name, item.cn].filter(Boolean))
+    .map((name) => `<option value="${escapeHtml(name)}"></option>`)
     .join("");
 }
 
@@ -150,6 +192,7 @@ function renderSummaryCards() {
   const cards = [
     ["抽取名单", fmt.format(summary.record_count), "PDF 逐行获奖名单记录"],
     ["学校名", fmt.format(summary.institution_count), "按 PDF 中英文学校名聚合"],
+    ["中文名", fmt.format(Object.keys(summary.institution_names_cn || {}).length), "已建立中文搜索映射"],
     ["官方总数", fmt.format(expectedTotal), "来自每份 PDF 首页摘要"],
     ["题目", "A-F", "MCM A-C / ICM D-F"],
   ];
@@ -166,18 +209,26 @@ function renderSummaryCards() {
     .join("");
 
   $("dataNote").textContent =
-    "注：Problem A 的官方首页摘要为 8,574 队，逐行名单抽取为 8,575 队；页面保留逐行名单用于学校查询，其余题目与官方摘要一致。";
+    "注：Problem A 的官方首页摘要为 8,574 队，逐行名单抽取为 8,575 队；中文校名映射优先覆盖高频学校和常见长校名，未确认的学校不强行翻译。";
 }
 
 function getMatches(query) {
   const q = normalize(query);
+  const compact = compactSearch(query);
   if (!q) return state.institutions.slice(0, 8);
+
+  const teamHit = state.records.find((row) => row.team === q);
+  if (teamHit?.institution) {
+    const group = state.institutions.find((item) => item.key === normalize(teamHit.institution));
+    if (group) return [group];
+  }
 
   const starts = [];
   const contains = [];
   state.institutions.forEach((item) => {
-    if (item.key.startsWith(q)) starts.push(item);
-    else if (item.key.includes(q)) contains.push(item);
+    const startsCn = item.cn && (normalize(item.cn).startsWith(q) || compactSearch(item.cn).startsWith(compact));
+    if (item.key.startsWith(q) || startsCn) starts.push(item);
+    else if (item.searchText.includes(q) || (compact && item.searchText.includes(compact))) contains.push(item);
   });
   return [...starts, ...contains].slice(0, 10);
 }
@@ -189,7 +240,7 @@ function renderMatches(query) {
       (item) => `
         <button class="match-button ${item.key === state.selectedInstitutionKey ? "active" : ""}"
           type="button" data-school-key="${escapeHtml(item.key)}">
-          <span class="match-name">${escapeHtml(item.name)}</span>
+          <span class="match-name">${escapeHtml(item.name)}${item.cn ? `<span class="match-cn">${escapeHtml(item.cn)}</span>` : ""}</span>
           <span class="match-count">${fmt.format(item.count)} teams</span>
         </button>
       `,
@@ -211,6 +262,7 @@ function selectInstitution(key) {
     .sort((a, b) => a.problem.localeCompare(b.problem) || a.team.localeCompare(b.team));
 
   $("schoolTitle").textContent = state.selectedInstitution || "请选择一个学校";
+  $("schoolCnTitle").textContent = item?.cn || "";
   $("schoolTotal").textContent = `${fmt.format(state.selectedRows.length)} teams`;
   $("designationFilter").value = "";
   $("problemFilter").value = "";
@@ -218,6 +270,7 @@ function selectInstitution(key) {
   renderMatches(state.selectedInstitution);
   renderAwardChips();
   renderSchoolCharts();
+  renderSchoolAnalysis();
   renderTable();
 }
 
@@ -339,6 +392,7 @@ function renderSchoolCharts() {
   if (!state.selectedRows.length) {
     drawEmpty(awardCanvas, "请选择学校");
     drawEmpty(problemCanvas, "请选择学校");
+    drawEmpty($("heatmapChart"), "请选择学校");
     return;
   }
 
@@ -357,11 +411,90 @@ function renderSchoolCharts() {
     color: problem <= "C" ? "#315d9d" : "#126a5a",
   }));
   drawBarChart(problemCanvas, problemItems, { padding: { top: 28, right: 24, bottom: 52, left: 58 } });
+  drawHeatmap($("heatmapChart"), state.selectedRows);
 }
 
 function renderTopChart() {
   const items = state.summary.top_institutions.slice(0, 20).map(([label, value]) => ({ label, value }));
   drawHorizontalBarChart($("topChart"), items);
+
+  const highItems = [...state.globalInstitutionStats.values()]
+    .filter((item) => item.highAwardCount > 0)
+    .sort((a, b) => b.highAwardCount - a.highAwardCount || b.count - a.count)
+    .slice(0, 20)
+    .map((item) => ({ label: item.cn ? `${item.name} / ${item.cn}` : item.name, value: item.highAwardCount }));
+  drawHorizontalBarChart($("topHighAwardChart"), highItems);
+}
+
+function drawHeatmap(canvas, rows) {
+  const ctx = canvas.getContext("2d");
+  const problems = state.summary.problem_order;
+  const designations = state.summary.designation_order;
+  const counts = {};
+  rows.forEach((row) => {
+    const key = `${row.problem}|${row.designation}`;
+    counts[key] = (counts[key] || 0) + 1;
+  });
+  const max = Math.max(1, ...Object.values(counts));
+  const width = canvas.width;
+  const height = canvas.height;
+  const padding = { top: 42, right: 24, bottom: 38, left: 150 };
+  const cellW = (width - padding.left - padding.right) / designations.length;
+  const cellH = (height - padding.top - padding.bottom) / problems.length;
+
+  ctx.clearRect(0, 0, width, height);
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0, 0, width, height);
+  ctx.font = "12px sans-serif";
+  ctx.textAlign = "center";
+  designations.forEach((designation, index) => {
+    ctx.fillStyle = "#647084";
+    ctx.fillText(CODES[designation], padding.left + index * cellW + cellW / 2, 24);
+  });
+  problems.forEach((problem, rowIndex) => {
+    ctx.fillStyle = "#647084";
+    ctx.textAlign = "right";
+    ctx.fillText(`Problem ${problem}`, padding.left - 12, padding.top + rowIndex * cellH + cellH / 2 + 4);
+    designations.forEach((designation, colIndex) => {
+      const value = counts[`${problem}|${designation}`] || 0;
+      const strength = value / max;
+      const x = padding.left + colIndex * cellW;
+      const y = padding.top + rowIndex * cellH;
+      ctx.fillStyle = value ? `rgba(18, 106, 90, ${0.18 + strength * 0.72})` : "#f4f6f9";
+      ctx.fillRect(x + 3, y + 3, cellW - 6, cellH - 6);
+      ctx.strokeStyle = "#dce2ea";
+      ctx.strokeRect(x + 3, y + 3, cellW - 6, cellH - 6);
+      ctx.fillStyle = strength > 0.58 ? "#fff" : "#18202f";
+      ctx.textAlign = "center";
+      ctx.font = "bold 13px sans-serif";
+      ctx.fillText(String(value), x + cellW / 2, y + cellH / 2 + 5);
+    });
+  });
+}
+
+function renderSchoolAnalysis() {
+  if (!state.selectedRows.length) {
+    $("schoolAnalysis").innerHTML = `<div class="analysis-card"><div class="analysis-label">请选择学校查看排名、奖项率和题目覆盖。</div></div>`;
+    return;
+  }
+  const stat = state.globalInstitutionStats.get(state.selectedInstitutionKey);
+  const total = state.selectedRows.length;
+  const high = state.selectedRows.filter((row) => HIGH_AWARDS.has(row.designation)).length;
+  const outstanding = state.selectedRows.filter((row) => row.designation === "Outstanding Winner").length;
+  const finalist = state.selectedRows.filter((row) => row.designation === "Finalist").length;
+  const problems = new Set(state.selectedRows.map((row) => row.problem)).size;
+  const countries = new Set(state.selectedRows.map((row) => row.country).filter(Boolean)).size;
+  const cards = [
+    [`#${stat?.rank || "-"}`, "学校总队伍数排名"],
+    [fmt.format(high), `高奖项队伍 O/F/M/H，占 ${displayPercent((high / total) * 100)}`],
+    [fmt.format(outstanding + finalist), "Outstanding + Finalist"],
+    [`${problems}/6`, "覆盖题目数量"],
+    [fmt.format(countries), "国家/地区来源"],
+    [fmt.format(total), "该校总队伍数"],
+  ];
+  $("schoolAnalysis").innerHTML = cards
+    .map(([value, label]) => `<div class="analysis-card"><div class="analysis-value">${value}</div><div class="analysis-label">${label}</div></div>`)
+    .join("");
 }
 
 function renderTable() {
@@ -373,7 +506,7 @@ function renderTable() {
   if (problem) rows = rows.filter((row) => row.problem === problem);
 
   if (!rows.length) {
-    $("recordsTable").innerHTML = `<tr><td colspan="11" class="empty">没有匹配记录。</td></tr>`;
+    $("recordsTable").innerHTML = `<tr><td colspan="12" class="empty">没有匹配记录。</td></tr>`;
     return;
   }
 
@@ -384,6 +517,7 @@ function renderTable() {
         <tr>
           <td>${escapeHtml(row.team)}</td>
           <td>${displayInstitution(row)}</td>
+          <td>${escapeHtml(displayCn(row))}</td>
           <td>${escapeHtml(row.country || "-")}</td>
           <td>${escapeHtml(row.contest)}</td>
           <td>Problem ${escapeHtml(row.problem)}</td>
@@ -420,10 +554,12 @@ function bindSearch() {
     state.selectedInstitutionKey = "";
     state.selectedRows = [];
     $("schoolTitle").textContent = "请选择一个学校";
+    $("schoolCnTitle").textContent = "";
     $("schoolTotal").textContent = "0 teams";
     renderMatches("");
     renderAwardChips();
     renderSchoolCharts();
+    renderSchoolAnalysis();
     renderTable();
     input.focus();
   });
@@ -442,16 +578,18 @@ async function init() {
   renderMatches("");
   renderAwardChips();
   renderSchoolCharts();
+  renderSchoolAnalysis();
   renderTopChart();
 
   const requestedSchool = new URLSearchParams(window.location.search).get("school");
   if (requestedSchool) {
-    const match = getMatches(requestedSchool).find((item) => item.key === normalize(requestedSchool));
+    const matches = getMatches(requestedSchool);
+    const match = matches.find((item) => item.key === normalize(requestedSchool) || normalize(item.cn) === normalize(requestedSchool)) || matches[0];
     if (match) selectInstitution(match.key);
   }
 }
 
 init().catch((error) => {
   console.error(error);
-  $("recordsTable").innerHTML = `<tr><td colspan="11" class="empty">数据加载失败，请通过本地 HTTP 服务打开本页。</td></tr>`;
+  $("recordsTable").innerHTML = `<tr><td colspan="12" class="empty">数据加载失败，请通过本地 HTTP 服务打开本页。</td></tr>`;
 });
