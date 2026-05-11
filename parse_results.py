@@ -116,6 +116,7 @@ INSTITUTION_ALIASES = {
     "nanjing university of posts and": "Nanjing University of Posts and Telecommunications",
     "nanjing university of post and": "Nanjing University of Posts and Telecommunications",
     "nanjing university of posts and telecommunications": "Nanjing University of Posts and Telecommunications",
+    "nanjing university of": "Nanjing University of Posts and Telecommunications",
     "beijing university of posts and": "Beijing University of Posts and Telecommunications",
     "beijing university of post and": "Beijing University of Posts and Telecommunications",
     "beijing university of posts and telecommunications": "Beijing University of Posts and Telecommunications",
@@ -331,7 +332,10 @@ INSTITUTION_ALIASES = {
     "hubei university of arts and sciences": "Hubei University of Arts and Science",
     "beijing forest university": "Beijing Forestry University",
     "chengdu college of university of electronic": "Chengdu College of University of Electronic Science and Technology of China",
+    "chongqing college of international": "Chongqing College of International Business and Economics",
+    "school of mathematics and statistics,": "School of Mathematics and Statistics, Wuhan University",
     "school of mathmatical sciences, liaocheng": "Liaocheng University",
+    "science and technology college of hubei": "Science and Technology College of Hubei University of Arts and Science",
     "zhejiang gongshang university hangzhou": "Hangzhou College of Commerce, Zhejiang Gongshang University",
     "hangzhou dianzi university information": "Hangzhou Dianzi University Information Engineering School",
 }
@@ -848,6 +852,8 @@ INSTITUTION_ZH = {
     "Nanjing Medical University": "南京医科大学",
     "City University of WuHan": "武汉城市学院",
     "Chengdu College of University of Electronic Science and Technology of China": "电子科技大学成都学院",
+    "School of Mathematics and Statistics, Wuhan University": "武汉大学数学与统计学院",
+    "Science and Technology College of Hubei University of Arts and Science": "湖北文理学院理工学院",
     "Liaocheng University": "聊城大学",
     "Hangzhou College of Commerce, Zhejiang Gongshang University": "浙江工商大学杭州商学院",
     "Hangzhou Dianzi University Information Engineering School": "杭州电子科技大学信息工程学院",
@@ -868,6 +874,14 @@ INSTITUTION_ZH = {
     "University College London": "伦敦大学学院",
     "University College Dublin": "都柏林大学学院",
     "University of Colorado Boulder": "科罗拉多大学博尔德分校",
+    "Suzhou University of Technology": "苏州工学院",
+    "Georgia School Ningbo": "浙江宁波乔治亚外籍人员子女学校",
+    "Chongqing College of International Business and Economics": "重庆对外经贸学院",
+    "Gandong University": "赣东学院",
+    "Hebei University": "河北大学",
+    "Shaoxing Institute of Technology": "绍兴理工学院",
+    "Sichuan University of Science & Engineering": "四川轻化工大学",
+    "Xi’an International Studies University": "西安外国语大学",
 }
 
 
