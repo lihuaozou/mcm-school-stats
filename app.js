@@ -566,7 +566,7 @@ function bindSearch() {
 }
 
 async function init() {
-  const response = await fetch("data/awards.json");
+  const response = await fetch("data/awards-cn.json");
   const data = await response.json();
   state.records = data.records;
   state.summary = data.summary;

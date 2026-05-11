@@ -35,7 +35,8 @@ https://www.comap-math.org/mcm/2026Certs/队伍编号.pdf
 ├── parse_results.py                 # 从 6 份结果 PDF 解析并生成 data/awards.json
 ├── audit_results.py                 # 数据审计脚本
 ├── data/
-│   ├── awards.json                  # 网站使用的结构化数据
+│   ├── awards-cn.json               # 网站使用的结构化数据，含中文学校名
+│   ├── awards.json                  # 同步保留的结构化数据
 │   ├── audit_report.json            # 审计报告
 │   ├── blank_institution_rows.csv   # PDF 中未提供可用学校名的队伍清单
 │   └── parse_issues.json            # 解析异常清单
