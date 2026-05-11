@@ -16,7 +16,7 @@ https://lihuaozou.github.io/mcm-school-stats/
   - `Nanjing University of Posts and` -> `Nanjing University of Posts and Telecommunications`
   - `Huazhong University of Science and` -> `Huazhong University of Science and Technology`
   - `University of Electronic Science and` -> `University of Electronic Science and Technology of China`
-- 为已知学校提供中文名映射，可直接搜索 `南京邮电大学`、`柳州工学院`、`浙江大学` 等中文名称。
+- 为已知学校提供中文名映射，可直接搜索 `南京邮电大学`、`浙江大学` 等中文名称。
 - 展示学校奖项分布、题目分布、题目与奖项热力图、高奖项数量、排名、覆盖题目数、获奖率等分析。
 - 表格展示完整队伍记录：队伍编号、学校、中文名、国家/地区、竞赛、题目、奖项等级、具体奖项、特别奖/备注、Advisor、来源 PDF 和证书。
 - 每条队伍记录提供 COMAP 官方证书链接：
