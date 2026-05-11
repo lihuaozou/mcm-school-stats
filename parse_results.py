@@ -278,6 +278,8 @@ INSTITUTION_ALIASES = {
     "ningbo universitiy": "Ningbo University",
     "national university of denfense technology": "National University of Defense Technology",
     "shanghai jiaotong university": "Shanghai Jiao Tong University",
+    "xi'an jiaotong–liverpool university": "Xi'an Jiaotong-Liverpool University",
+    "xi’an jiaotong–liverpool university": "Xi'an Jiaotong-Liverpool University",
     "the chinese university of hong kong,": "The Chinese University of Hong Kong, Shenzhen",
     "chinese university of hong kong,": "The Chinese University of Hong Kong, Shenzhen",
     "xi'an jiaotong university city college": "City College of Xi'an Jiaotong University",
