@@ -141,9 +141,12 @@ INSTITUTION_ALIASES = {
     "southern university of science and technology": "Southern University of Science and Technology",
     "north china university of science and": "North China University of Science and Technology",
     "north china university of science": "North China University of Science and Technology",
+    "the university of science and technology": "University of Science and Technology of China",
+    "the university of science and technology of": "University of Science and Technology of China",
     "university of science and technology of": "University of Science and Technology of China",
     "university of science and technology of china": "University of Science and Technology of China",
-    "university of science and technology": "University of Science and Technology of China",
+    "ustc": "University of Science and Technology of China",
+    "ustb": "University of Science and Technology Beijing",
     "capital university of economics and": "Capital University of Economics and Business",
     "capital university of economics and business": "Capital University of Economics and Business",
     "capital university of business and": "Capital University of Economics and Business",
@@ -360,6 +363,36 @@ INSTITUTION_ALIASES = {
     "universidad iberoamericana ciudad de": "Universidad Iberoamericana Ciudad de Mexico",
 }
 
+TEAM_INSTITUTION_OVERRIDES = {
+    **dict.fromkeys(
+        [
+            "2600563", "2600662", "2600844", "2600976", "2600998", "2601290",
+            "2601612", "2602552", "2602790", "2602793", "2602882", "2603077",
+            "2603622", "2603741", "2604350", "2604448", "2608222", "2608227",
+            "2608423", "2608692", "2608704", "2608843", "2609421", "2609451",
+            "2609728", "2609909", "2610595", "2610753", "2611185", "2611222",
+            "2611289", "2611573", "2611692", "2611769", "2612418", "2612535",
+            "2612626", "2612699", "2613620", "2613842", "2614295", "2614433", "2614496",
+            "2614503", "2614510", "2614549", "2614569", "2614687", "2614729",
+            "2614917", "2615353", "2615707", "2615715", "2615733", "2615866",
+            "2616097", "2616488", "2616572", "2617422", "2618959", "2619072",
+            "2619196", "2619761", "2619884", "2620173", "2621138", "2621447",
+            "2623463", "2625525", "2625554", "2627371", "2627769", "2627890", "2629449",
+            "2629753", "2631058", "2631115", "2631594", "2631604", "2632347",
+            "2632523", "2632657",
+        ],
+        "University of Science and Technology Beijing",
+    ),
+    **dict.fromkeys(
+        [
+            "2601821", "2608389", "2609712", "2611076", "2611394", "2612232",
+            "2613026", "2613036", "2614084", "2614292", "2615163", "2615716",
+            "2616010", "2616221", "2616879", "2619667", "2622091", "2623566",
+        ],
+        "University of Science and Technology Liaoning",
+    ),
+}
+
 INSTITUTION_ZH = {
     "Xi'an Jiaotong University": "西安交通大学",
     "Huazhong University of Science and Technology": "华中科技大学",
@@ -395,6 +428,8 @@ INSTITUTION_ZH = {
     "Fudan University": "复旦大学",
     "China University of Mining and Technology": "中国矿业大学",
     "University of Science and Technology of China": "中国科学技术大学",
+    "University of Science and Technology Beijing": "北京科技大学",
+    "University of Science and Technology Liaoning": "辽宁科技大学",
     "China Agricultural University": "中国农业大学",
     "Southwest University": "西南大学",
     "Northeastern University at Qinhuangdao": "东北大学秦皇岛分校",
@@ -996,6 +1031,7 @@ def parse_line(
     team = control_match.group(0)
     institution_raw = norm_spaces(normalized[: control_match.start()])
     institution = clean_institution(institution_raw)
+    institution = TEAM_INSTITUTION_OVERRIDES.get(team, institution)
     after_team = normalized[control_match.end() :]
     designation_match = re.search(rf"\b([A-F])\s+{DESIGNATION_PATTERN}", after_team)
     if not designation_match:

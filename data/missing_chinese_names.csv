@@ -1,1145 +1,1143 @@
-count,institution,countries,sample_teams
-5,"Jiangxi Polytechnic Institute","China:5","2601253 2601306 2601585 2601097 2601041"
-4,"Cal Poly Humboldt","USA:4","2604787 2604788 2629913 2629914"
-4,"Indiana University of Pennsylvania","USA:4","2632823 2632824 2631635 2632829"
-4,"Institut Teknologi Bandung","Indonesia:4","2627117 2618587 2627114 2627111"
-4,"John Carroll University","USA:4","2631342 2631344 2631356 2631351"
-4,"Pacific Lutheran University","USA:4","2629884 2629887 2629888 2629886"
-4,"Pepperdine University","USA:4","2628481 2628482 2628480 2628479"
-4,"Rensselaer Polytechnic Institute","USA:4","2630136 2630204 2630225 2631939"
-4,"Saint Martin's University","USA:4","2628789 2628778 2621245 2628786"
-4,"University of British Columbia","Canada:4","2603133 2606239 2601850 2607485"
-4,"University of Southampton","China:3; United Kingdom:1","2620959 2629406 2629922 2622961"
-4,"Xuhai College, China University of Mining","China:4","2613204 2611712 2613285 2613245"
-3,"Bucea","China:3","2609607 2626989 2628883"
-3,"Carleton College","USA:3","2632895 2632893 2632892"
-3,"Changchun University","China:3","2625817 2607547 2622594"
-3,"Chengdu University","China:3","2615222 2626066 2623767"
-3,"China Agriculture University","China:3","2617255 2614562 2631476"
-3,"China University of Petroleum (Beijing)","China:3","2611273 2607563 2626152"
-3,"Chongqing Medical University","China:3","2604290 2605598 2622527"
-3,"Chongqing University of Technology","China:3","2617413 2627366 2610668"
-3,"City College of Xian Jiaotong University","China:3","2613540 2618060 2614231"
-3,"Cornell University","USA:3","2631304 2631662 2631661"
-3,"Dalian Minzu University","China:3","2620688 2622731 2627953"
-3,"Flint Hill School","USA:3","2622991 2622992 2622994"
-3,"Gansu Agricultural University","China:3","2629193 2629798 2632358"
-3,"Gettysburg College","USA:3","2629844 2631640 2628454"
-3,"Guangdong Lingnan Vocational and Technical College","China:3","2611588 2611576 2611577"
-3,"Guangdong Peizheng College","China:3","2606734 2612365 2616936"
-3,"Guangdong University of Petrochemical","China:3","2615151 2613358 2628960"
-3,"Guiyang Institute of Humanities and Technology","China:3","2613564 2607825 2607819"
-3,"Hebei University of Engineering","China:3","2603783 2617532 2628230"
-3,"Hebei University of Environmental","China:3","2616850 2615930 2622710"
-3,"Henan Institute of Science and Technology","China:3","2624008 2624023 2624029"
-3,"Hong Kong Baptist University","Hong Kong (SAR) China:2; China:1","2612519 2613203 2603977"
-3,"Hong Kong Metropolitan University","China:2; Hong Kong (SAR) China:1","2627583 2628412 2622716"
-3,"Huanggang Normal University","China:3","2632798 2617876 2622703"
-3,"Hunan Institute of Technology","China:3","2617627 2627123 2620260"
-3,"International Campus, Zhejiang University","China:3","2600808 2609275 2600709"
-3,"Jiangxi University of Applied Science","China:3","2605251 2605253 2601283"
-3,"Jiangxi University of Chinese Medicine","China:3","2626020 2632916 2632917"
-3,"Jilin University of Finance and Economics","China:3","2600040 2622032 2628739"
-3,"Jimei University","China:3","2604402 2630696 2619806"
-3,"KwangWoon University","South Korea:3","2611066 2611054 2611063"
-3,"Liao Ning University","China:3","2619453 2620630 2616611"
-3,"Liaocheng Universsity","China:3","2629060 2629070 2629068"
-3,"Longgang Experimental High School","China:3","2630655 2630670 2630690"
-3,"Nanyang Normal University","China:3","2627468 2627447 2627493"
-3,"Nanyang Technological University","Singapore:3","2617954 2600020 2612408"
-3,"NORTHWESTERN POLYTECHNICAL","China:3","2616351 2602695 2602884"
-3,"NWAFU","China:3","2621453 2621472 2626756"
-3,"Paivola School","Finland:3","2631652 2632690 2631653"
-3,"Pomona College","USA:3","2632001 2631979 2631955"
-3,"Qilu University of Technology (Shandong","China:3","2623429 2627026 2631192"
-3,"Qingdao City University","China:3","2614667 2616442 2616352"
-3,"Quanzhou University of Information","China:3","2607048 2626685 2632819"
-3,"Seattle Pacific University","USA:3","2621342 2606368 2631711"
-3,"Shaanxi Xueqian Normal University","China:3","2601296 2613708 2613705"
-3,"Shandong University, Weihai","China:3","2621649 2632728 2615338"
-3,"Shangqiu Normal University","China:3","2625582 2618611 2621028"
-3,"Shenyang Normal University","China:3","2601459 2613626 2611187"
-3,"Silesian University of Technology","Poland:3","2602116 2632679 2625435"
-3,"Southeast University Cheng Xian College","China:3","2601447 2603883 2632510"
-3,"Southwest Jiaotong University Hope","China:3","2607659 2603347 2631228"
-3,"Suqian College","China:3","2612973 2606396 2609734"
-3,"Swarthmore College","USA:3","2602253 2602254 2602255"
-3,"Taipei American School","China:3","2631895 2631897 2631931"
-3,"Taishan University","China:3","2614797 2630742 2626627"
-3,"Tangshan normal university","China:3","2603601 2603616 2603608"
-3,"Telkom University","Indonesia:3","2622906 2631912 2630667"
-3,"The Ohio State University","USA:3","2631674 2631672 2631673"
-3,"Tianjin Chengjian University","China:3","2631091 2626198 2613593"
-3,"Tianjin Medical University","China:3","2610102 2629259 2620782"
-3,"Tianjin University of Science and Technology","China:3","2622441 2602996 2624306"
-3,"UCASS","China:3","2618834 2627571 2614445"
-3,"university","China:3","2617888 2601757 2601758"
-3,"University","China:3","2616426 2601170 2611155"
-3,"University of Bristol","United Kingdom:2; China:1","2626247 2621337 2621430"
-3,"University of Emergency Management","China:3","2632526 2619512 2627913"
-3,"University of Hong Kong","Hong Kong (SAR) China:2; China:1","2632024 2626386 2631954"
-3,"University of Michigan","USA:3","2628483 2622881 2631664"
-3,"University of Waterloo","Canada:3","2618193 2628287 2631699"
-3,"Virginia Military Institute","USA:3","2622959 2622962 2622963"
-3,"Washington State University","USA:3","2631687 2631688 2631689"
-3,"Western Washington University","USA:3","2619572 2619570 2619571"
-3,"Wuchang Shouyi University","China:3","2603364 2601403 2603366"
-3,"Wuhan Donghu College","China:3","2608252 2608236 2628325"
-3,"Xi'an Kedagaoxin University","China:3","2614834 2617356 2622890"
-3,"Yancheng Institute of Technology","China:3","2630446 2613797 2629848"
-3,"Yancheng Teachers University","China:3","2632262 2617492 2607037"
-3,"Yanching Institute of Technology","China:3","2619019 2621114 2632681"
-3,"Zhejiang International Studies University","China:3","2600861 2600098 2600574"
-3,"Zhejiang University - University of Illinois","China:3","2621128 2609997 2607509"
-3,"Zhengzhou Uinversity of Aeronautic","China:3","2620930 2620899 2620928"
-2,"4 Year","China:2","2613606 2613605"
-2,"Adelaide University","Australia:2","2630299 2604237"
-2,"Adlai E. Stevenson High School","USA:2","2600413 2600414"
-2,"Albion College","USA:2","2632997 2633000"
-2,"Anhui Science and Technology University","China:2","2626805 2602772"
-2,"Anhui University of Science & Technology","China:2","2601133 2600887"
-2,"Anyang University","China:2","2624426 2620984"
-2,"Arizona State University","USA:1; China:1","2631660 2628031"
-2,"Beijing Sports University","China:2","2631525 2627850"
-2,"Beijing University of Chinese Medicine","China:2","2624637 2610164"
-2,"Bohai University","China:2","2626144 2629500"
-2,"Boston University","USA:2","2614598 2601990"
-2,"California Polytechnic State University","USA:2","2629987 2630027"
-2,"California State Polytechnic University","USA:2","2629919 2629921"
-2,"Carroll College","USA:2","2631530 2631524"
-2,"Central University of Finace and Economics","China:2","2619497 2626960"
-2,"China Jiliang University College of Modern","China:2","2625472 2624161"
-2,"China Medical University","China:2","2630444 2609575"
-2,"China University of Geosciences,Wuhan","China:2","2620576 2630872"
-2,"China University of Mining and Technology-","China:2","2600724 2625509"
-2,"China University of Petroleum(Beijing)","China:2","2603239 2632280"
-2,"Chinese University of Hong Kong","China:1; Hong Kong (SAR) China:1","2629811 2609273"
-2,"Chongqing University of Arts and Sciences","China:2","2601110 2630804"
-2,"Clarkson University","USA:2","2628414 2628402"
-2,"college","China:2","2602416 2609308"
-2,"College of Sciences, Northeastern","China:2","2620323 2620056"
-2,"Concord University College Fujian Normal","China:2","2600393 2604506"
-2,"Creighton University","USA:2","2629879 2629882"
-2,"CUHK(SZ)","China:2","2616312 2616967"
-2,"Dalian Jiaotong University","China:2","2617597 2616553"
-2,"Dalian University of Foreign Languages","China:2","2631869 2629989"
-2,"Eastern Washington University","USA:2","2626689 2626690"
-2,"Florida Polytechnic University","USA:2","2631680 2631679"
-2,"Guangdong Baiyun University","China:2","2621638 2608421"
-2,"Guangdong Pharmaceutical University","China:2","2623436 2628990"
-2,"Guangdong University of Education","China:2","2608927 2603730"
-2,"Guangxi University for Nationalities","China:2","2600275 2631527"
-2,"Hampton University","USA:2","2611786 2611787"
-2,"Harbin Huade University","China:2","2619201 2630159"
-2,"Harbin Normal University","China:2","2624179 2632321"
-2,"Harvard University","USA:2","2623114 2623105"
-2,"Hebei Vocational University of Technology","China:2","2602352 2602349"
-2,"Hefei City College","China:2","2603180 2623589"
-2,"Huainan Normal University","China:2","2626820 2616104"
-2,"Huaiyin Normal University","China:2","2600746 2617891"
-2,"Hulunbuir University","China:2","2630613 2611556"
-2,"Hunan University of Information","China:2","2617327 2617324"
-2,"Hunan University of Technology and","China:2","2621437 2629052"
-2,"Inner Mongolia Minzu University","China:2","2609631 2609604"
-2,"Inner Mongolia University of Science &","China:2","2601322 2617738"
-2,"International Campus Zhejiang University","China:2","2600614 2600490"
-2,"Jiangmen Polytechnic","China:2","2619857 2619865"
-2,"Jiangsu College of Tourism","China:2","2600535 2600537"
-2,"Jiangsu Ocean University","China:2","2628660 2624221"
-2,"Jiangxi Agricultural University","China:2","2609605 2631780"
-2,"Jiaxing Vocational & Technical College","China:2","2631710 2631709"
-2,"Jilin Agricultural University","China:2","2614416 2614480"
-2,"Jilin International Studies University","China:2","2620383 2631820"
-2,"JiLin University of Finance and Economics","China:2","2629047 2618902"
-2,"Jining Normal University","China:2","2632182 2604343"
-2,"Jining Polytechnic","China:2","2620498 2620327"
-2,"Jinshan College Of Fujian Agriculture And","China:2","2617796 2617818"
-2,"King's College London","United Kingdom:2","2622956 2604040"
-2,"Lake Erie College","USA:2","2632797 2632796"
-2,"Lan Zhou University","China:2","2625447 2622812"
-2,"Lanzhpu University of Technolgy","China:2","2619994 2620031"
-2,"Liaoning Institute of Science and","China:2","2605615 2629077"
-2,"Liaoning Normal University","China:2","2600394 2630928"
-2,"Liaoning Police College","China:2","2629007 2622692"
-2,"Linfield University","USA:2","2621339 2621338"
-2,"Longdong University","China:2","2619637 2630469"
-2,"Loyola University Maryland","USA:2","2622993 2631659"
-2,"Luzhou Vocational and Technical College","China:2","2626818 2615777"
-2,"McGill University","Canada:2","2600819 2613940"
-2,"Mianyang Teachers' College","China:2","2624824 2612332"
-2,"Monash University","China:2","2627283 2613210"
-2,"Nanfang College Guangzhou","China:2","2618606 2628935"
-2,"Naval Medical University","China:2","2603301 2605521"
-2,"NC School of Science and Mathematics","USA:2","2612697 2612698"
-2,"NCEPU","China:2","2614007 2620548"
-2,"NEU","China:2","2622370 2616155"
-2,"Ningxia Institute of Science and Technology","China:2","2625474 2627546"
-2,"Northeastern University (Shenyang)","China:2","2621792 2617714"
-2,"Northeastern University of China","China:2","2621873 2617174"
-2,"Northeastern University-China","China:2","2616619 2616661"
-2,"Northeastern University(Shenyang)","China:2","2610354 2622973"
-2,"NortheasternUniversity","China:2","2615507 2618989"
-2,"Purdue University","USA:2","2609963 2600009"
-2,"Qingdao Agricultural University","China:2","2600338 2613858"
-2,"Qiongtai Normal University","China:2","2601515 2601517"
-2,"Renmin University of China Suzhou","China:2","2611563 2629391"
-2,"Rye Country Day School","USA:2","2613792 2631595"
-2,"School of Mathematics and Physics, North","China:2","2612428 2604012"
-2,"Shandong First Medical University","China:2","2614346 2627161"
-2,"Shandong University (Weihai)","China:2","2627587 2632082"
-2,"Shandong University,Weihai","China:2","2601364 2604361"
-2,"Shanghai Jiao Tong University Global","China:2","2600958 2604740"
-2,"Shanghai University of Traditional Chinese","China:2","2600305 2627921"
-2,"Shangqiu Polytechnic","China:2","2613221 2613202"
-2,"Shanxi Agricultural University","China:2","2620872 2632647"
-2,"Shaoyang University","China:2","2610635 2612480"
-2,"Shenyang University","China:2","2603266 2620349"
-2,"Sichuan University Jinjiang College","China:2","2625513 2625503"
-2,"Sichuan Vocational and Technical College","China:2","2604157 2607507"
-2,"Sonoma State University","USA:2","2631670 2631675"
-2,"Southern Connecticut State University","USA:2","2633026 2633027"
-2,"Southern New Hampshire University","USA:2","2631309 2632821"
-2,"Southwest Forestry University","China:2","2608269 2616263"
-2,"Southwest University of Science and","China:2","2620644 2602043"
-2,"St. John Fisher University","USA:2","2621328 2621329"
-2,"Stellenbosch University","South Africa:2","2629212 2629203"
-2,"Sun-Yatsen University","China:2","2632968 2618894"
-2,"SUSTech","China:2","2622654 2631726"
-2,"Suzhou university","China:2","2618023 2620911"
-2,"Tangshan Normal University","China:2","2603840 2603762"
-2,"Technology&Media University of Henan","China:2","2625562 2632612"
-2,"The HongKong Polytechnic University","China:1; Hong Kong (SAR) China:1","2611648 2631474"
-2,"The Nueva School","USA:2","2631663 2631666"
-2,"The Ocean University of China","China:2","2632438 2626396"
-2,"The State University of New York, Korea","South Korea:2","2607662 2608066"
-2,"The University of Manchester","China:1; United Kingdom:1","2601988 2603253"
-2,"The University of Science and Technology","China:2","2626513 2625553"
-2,"Thomas Jefferson High School for Science","USA:2","2633022 2633025"
-2,"Tianjin University, Tianjin, China","China:2","2603392 2616212"
-2,"Tianjing University","China:2","2624518 2631200"
-2,"Truman State University","USA:2","2629895 2629894"
-2,"universidad autónoma de Yucatán","Mexico:2","2628474 2628476"
-2,"Universitas Andalas","Indonesia:2","2618657 2618666"
-2,"Universitas Pelita Harapan","Indonesia:2","2630258 2630297"
-2,"University of California, Irvine","USA:2","2619577 2601573"
-2,"University of California, Riverside","USA:2","2633039 2633037"
-2,"University of California, Santa Barbara","USA:2","2616736 2622253"
-2,"University of Colorado Denver","USA:1; China:1","2600873 2609080"
-2,"University of Melbourne","Australia:2","2602716 2604533"
-2,"University of Minnesota, Twin Cities","USA:2","2631684 2631682"
-2,"University of North Carolina at Chapel Hill","USA:2","2613823 2628490"
-2,"University of Oxford","United Kingdom:1; China:1","2601258 2631622"
-2,"University of Southern California","USA:2","2600075 2631700"
-2,"University of Washington","USA:2","2621341 2604958"
-2,"University of Washington Tacoma","USA:2","2614591 2618122"
-2,"USTC","China:2","2616473 2600728"
-2,"Wenzhou Kean University","China:2","2608425 2611460"
-2,"Wisconsin Lutheran College","USA:2","2632873 2632867"
-2,"Wuhan Donghu University","China:2","2607658 2608844"
-2,"XI'AN University of Posts","China:2","2613779 2615170"
-2,"Xi’an University of Science and Technology","China:2","2611197 2623492"
-2,"Xian Aeronautical Polytechnic Institute","China:2","2632263 2632241"
-2,"Xian Jiaotong University","China:2","2622462 2621748"
-2,"XIDIANUNIVERSITY","China:2","2622524 2623742"
-2,"Xinjiang University of Technology","China:2","2603477 2609267"
-2,"XuHai College of China University of Mining","China:2","2611545 2610655"
-2,"Xuhai College,China University of Mining","China:2","2613267 2624240"
-2,"Yulin University","China:2","2630559 2630577"
-2,"Yunnan Minzu University","China:2","2610315 2610679"
-2,"Zhejiang Agricultural and Forestry","China:2","2622648 2624815"
-2,"Zhejiang Institute of Communications","China:2","2619327 2621759"
-2,"Zhengzhou University of Aeronautics","China:2","2609424 2620820"
-2,"Zhicheng College of Fuzhou University","China:2","2632880 2624429"
-2,"Zhujiang College, South China Agricultural","China:2","2630962 2631393"
-2,"ZJU","China:2","2610519 2624272"
-1,"( )","China:1","2604193"
-1,"(SUN YAT-SEN UNIVERSITY)","China:1","2621886"
-1,"Aberdeen Institute of Data Science and","China:1","2600435"
-1,"Affiliated School of Kunming NSAU","China:1","2626766"
-1,"AHJZU&XUPT&HDU","China:1","2613395"
-1,"Air Force Medical University","China:1","2629508"
-1,"Al-Farabi Kazakh National University","Kazakhstan:1","2631570"
-1,"American Heritage School Palm Beach","USA:1","2632154"
-1,"Anhui Agricultural University","China:1","2619954"
-1,"Anhui Medical University","China:1","2632030"
-1,"Anhui Sanlian University","China:1","2632073"
-1,"Anqing Normal University (AQNU)","China:1","2610256"
-1,"Anyang Normal University","China:1","2601591"
-1,"Applied Technology College of Soochow","China:1","2612734"
-1,"Arcadia University","USA:1","2612705"
-1,"Auhui University","China:1","2622801"
-1,"Baltimore Polytechnic Institute","USA:1","2617994"
-1,"Behang University","China:1","2620894"
-1,"Bei Hang University","China:1","2617693"
-1,"Beibu Gulf University","China:1","2614473"
-1,"Beihang","China:1","2632749"
-1,"Beihang University&China University of","China:1","2632914"
-1,"Beiing University of Aeronautics and","China:1","2624327"
-1,"Beijing Information Science&Technology","China:1","2621680"
-1,"Beijing Insititute of Technology","China:1","2602262"
-1,"Beijing Institude of Technology","China:1","2606246"
-1,"BEIJING institute of technology, zhuhai","China:1","2624301"
-1,"Beijing Institute of Technology,Zhuhai","China:1","2613794"
-1,"Beijing Institute of Technology&Shantou","China:1","2627988"
-1,"Beijing International Studies University","China:1","2601010"
-1,"Beijing Jiaotong University, Weihai","China:1","2611462"
-1,"Beijing New Talent Academy","China:1","2605608"
-1,"Beijing No. 4 High School","China:1","2628223"
-1,"Beijing Nomal University","China:1","2601180"
-1,"Beijing Normal Univerity","China:1","2624690"
-1,"Beijing Normal University (BNU)","China:1","2622130"
-1,"Beijing Normal University (Zhuhai)","China:1","2603018"
-1,"Beijing Normal University an Zhuhai","China:1","2617695"
-1,"Beijing Normal University in Zhuhai","China:1","2607130"
-1,"Beijing Normal University Zhuhai Campus","China:1","2607150"
-1,"Beijing Normal University, Zhuhai Campus","China:1","2607738"
-1,"Beijing Normal–Hong Kong Baptist","China:1","2607919"
-1,"Beijing Royal School","China:1","2632852"
-1,"Beijing Sport Univercity","China:1","2608444"
-1,"Beijing sports university","China:1","2611694"
-1,"Beijing university","China:1","2625609"
-1,"Beijing University Of Agriculture","China:1","2619716"
-1,"Beijing University Of Posts","China:1","2620610"
-1,"Beijing University of Tecnology","China:1","2631905"
-1,"Beijing University of th Post and","China:1","2624502"
-1,"Beijing Vocational College of Labor and","China:1","2627933"
-1,"Bejing Normal University","China:1","2620534"
-1,"bejing university of Techonlogy","China:1","2623661"
-1,"BJFU University","China:1","2628467"
-1,"BJUT","China:1","2626599"
-1,"BMCA","China:1","2600021"
-1,"Brandeis University","USA:1","2629911"
-1,"Brigham Young University - Idaho","USA:1","2629923"
-1,"BTHS","USA:1","2632856"
-1,"BUAA","China:1","2607174"
-1,"Bucknell University","USA:1","2633028"
-1,"Budapest University of Technology and","Hungary:1","2631111"
-1,"bupt","China:1","2632850"
-1,"BUPT","China:1","2616339"
-1,"California Institute of Technology","USA:1","2628489"
-1,"California Polytechnic State University, San","USA:1","2618521"
-1,"Capital University of Economic and","China:1","2612538"
-1,"capital university of economic and business","China:1","2601729"
-1,"Capital University of Economics and Busine","China:1","2616024"
-1,"Carnegie Mellon University","USA:1","2609999"
-1,"Case Western Reserve University","USA:1","2619260"
-1,"cauc","China:1","2630634"
-1,"CCIBE","China:1","2605403"
-1,"CEFET-MG (Centro Federal de Educação","Brazil:1","2616739"
-1,"Center South University","China:1","2611454"
-1,"Central South Univeisity","China:1","2616959"
-1,"Central South Univercity","China:1","2624611"
-1,"Central South Univerdity","China:1","2624890"
-1,"Central Univereity of Finance and","China:1","2629705"
-1,"Central University of Finance and Ecnomics","China:1","2618107"
-1,"Central University of Financeand","China:1","2616204"
-1,"Central University of Financial and","China:1","2631797"
-1,"CentralSouth University","China:1","2630390"
-1,"Centrol South University","China:1","2600646"
-1,"Chang’an University","China:1","2605382"
-1,"Changchun Institute of Technology","China:1","2601398"
-1,"Changchun University of Architecture and","China:1","2605664"
-1,"Changchun University of Techonolgy","China:1","2602534"
-1,"ChangChunNormalUniversity","China:1","2622322"
-1,"Changji University","China:1","2611575"
-1,"Changsha Rail Transit Institute","China:1","2617330"
-1,"Changzhi College","China:1","2614960"
-1,"Chendu University of information","China:1","2603452"
-1,"Chendu University of Information","China:1","2603488"
-1,"Chengdu Jincheng College","China:1","2607026"
-1,"Chengdu No. 7 High School","China:1","2616125"
-1,"Chengdu Normal University","China:1","2613351"
-1,"Chengdu Polytechnic","China:1","2610624"
-1,"Chengdu Univercity of Information","China:1","2603418"
-1,"Chengdu Vocational University of the Arts","China:1","2603999"
-1,"China Academy of Machinery Science and","China:1","2630496"
-1,"China Jiliang University Modern Science","China:1","2628833"
-1,"China Nanchang University","China:1","2615799"
-1,"China People's Police University","China:1","2620794"
-1,"China Pharmaceutical University,Jiangning","China:1","2619426"
-1,"China University if Geoscience","China:1","2629028"
-1,"China university of Geoscience","China:1","2620802"
-1,"China University of Geoscience","China:1","2614198"
-1,"China University of Geoscience Beijing","China:1","2629161"
-1,"China University of Geoscience(Beijing)","China:1","2622335"
-1,"China University of Geosciences,Beijing","China:1","2616443"
-1,"China University of Geosciences(Beijing","China:1","2614808"
-1,"China University of Geosciences(Wu han)","China:1","2603691"
-1,"China University of Geosciences(Wuhan)","China:1","2629232"
-1,"China University of Labor Relations","China:1","2608434"
-1,"China University of Mining & Technology","China:1","2623671"
-1,"China University of Mining & Technology-","China:1","2629333"
-1,"CHINA UNIVERSITY OF MINING AND","China:1","2601500"
-1,"China University of Petroleum - Beijing at","China:1","2631813"
-1,"China University Of Petroleum -Beijing at","China:1","2617065"
-1,"China University of Petroleum (Beijing),","China:1","2623524"
-1,"China University of Petroleum Beijing)","China:1","2625712"
-1,"CHINA UNIVERSITY OF PETROLEUM-","China:1","2613760"
-1,"China West Normal University","China:1","2619958"
-1,"Chinese University of Hongkong, Shenzhen","China:1","2615859"
-1,"Chinese University of HongKong, Shenzhen","China:1","2600025"
-1,"Chong Qing University","China:1","2601562"
-1,"Chong qing Yongchuan BeiShan High","China:1","2625798"
-1,"Chongqin University","China:1","2615904"
-1,"Chongqing Aerospace Polytechnic","China:1","2617258"
-1,"Chongqing Electric Power College","China:1","2610373"
-1,"Chongqing Polytechnic University of","China:1","2603905"
-1,"Chongqing University of Education","China:1","2601089"
-1,"Chongqing University of Posts amd","China:1","2601293"
-1,"Chongqing University of Urban Science and","China:1","2603749"
-1,"Chongqing Vocational University of","China:1","2605789"
-1,"Chongqing Yongchuan Beishan Middle","China:1","2624608"
-1,"Chongqing Yongchuan District Beishan","China:1","2631002"
-1,"City College of XTan Jiaotong University","China:1","2628745"
-1,"City University of Hong Kong (Dongguan)","China:1","2622005"
-1,"City University of HONGKONG (Dongguan)","China:1","2617932"
-1,"Civil Aviation universities of China","China:1","2614360"
-1,"Civil Aviation University","China:1","2601697"
-1,"Colegio Arena","Brazil:1","2615568"
-1,"College of Arts and Information","China:1","2628575"
-1,"College of Humanities and Information,","China:1","2612094"
-1,"College of Information Engineering and","China:1","2612059"
-1,"College of Information Science and","China:1","2629000"
-1,"Colorado College","USA:1","2631665"
-1,"Communication Univercity of China","China:1","2612586"
-1,"COMMUNICATION UNIVERSITY OF","China:1","2628694"
-1,"Computer","China:1","2632220"
-1,"CUHK Shenzhen","China:1","2604556"
-1,"CUHKSZ","China:1","2603690"
-1,"Dali university","China:1","2600008"
-1,"Dalian jiaotong university","China:1","2627543"
-1,"Dalian Medical University","China:1","2618565"
-1,"Dalian No.20 Senior Middle School","China:1","2626378"
-1,"Dalian University of Technology Panjin","China:1","2617787"
-1,"De Anza College","USA:1","2623741"
-1,"DE ANZA COLLEGE","USA:1","2628759"
-1,"Deyang College of Urban Rail Transit","China:1","2623486"
-1,"DONG BEI UNIVERSITY","China:1","2621050"
-1,"Dundee International Institution of Central","China:1","2603533"
-1,"East China Normal University & Yunnan","China:1","2600700"
-1,"East China Normal Universty","China:1","2630453"
-1,"East Normal China University","China:1","2601118"
-1,"East University of Heilongjiang","China:1","2619797"
-1,"Eastern Kentucky University","USA:1","2629905"
-1,"Eastern Michigan University","USA:1","2622927"
-1,"Eastside Preparatory School","USA:1","2630319"
-1,"Eindhoven university of technology","Netherlands:1","2603380"
-1,"Electronic and Information Engineering","China:1","2622363"
-1,"Engineering University of PAP","China:1","2608381"
-1,"FJUT","China:1","2628803"
-1,"Florida Institute of Technology","USA:1","2631656"
-1,"FOSHAN POLYTECHNIC","China:1","2627028"
-1,"Fu Zhou university","China:1","2629238"
-1,"Fudan University, China","China:1","2609599"
-1,"Fuzhou Institute of Technology","China:1","2630202"
-1,"Fuzhou University of Intemational studies","China:1","2610439"
-1,"Fuzhou University Zhicheng College&Qufu","China:1","2612423"
-1,"FuzhouUniveristy","China:1","2624461"
-1,"FuZhouUniversityZhiChengCollege","China:1","2629675"
-1,"Gannan University of Science and","China:1","2629521"
-1,"Gansu Finance and Trade Vocational","China:1","2625816"
-1,"Gansu University of Chinese Medicine","China:1","2613265"
-1,"Ganzhou Polytechnic","China:1","2627790"
-1,"GDUFS","China:1","2625776"
-1,"Gezhi High School Shanghai","China:1","2625872"
-1,"Glasgow College Hainan, University of","China:1","2611735"
-1,"Glasgow College Hainan,UESTC","China:1","2602754"
-1,"Gongqing College of Nanchang University","China:1","2627325"
-1,"Grand View University","USA:1","2631706"
-1,"Green Level High School","USA:1","2628458"
-1,"guang dong finance university","China:1","2629850"
-1,"Guang Dong Peizheng College","China:1","2616974"
-1,"Guangdong Industry Polytechnic","China:1","2631516"
-1,"Guangdong Mechanical & Electrical","China:1","2626085"
-1,"Guangdong Medical University","China:1","2626115"
-1,"Guangdong Pei Zheng College","China:1","2616854"
-1,"Guangdong Police College","China:1","2632463"
-1,"Guangdong Technion - Israel Institute of","China:1","2600041"
-1,"Guangdong Technion-Israel Institute of","China:1","2601473"
-1,"Guangxi Police College","China:1","2603954"
-1,"Guangxi Science & Technology Normal","China:1","2614130"
-1,"Guangxi University of Chinese Medicine","China:1","2600082"
-1,"Guangxi University of Finance and","China:1","2600186"
-1,"Guangxi University of Foreign Languages","China:1","2628304"
-1,"Guangxi University of Science and","China:1","2621574"
-1,"Guangxi Vocational Institute Of Technology","China:1","2629855"
-1,"Guangzhou City Polytechnic","China:1","2629248"
-1,"Guangzhou Civil Aviation College","China:1","2616540"
-1,"Guangzhou Medical University","China:1","2612128"
-1,"Guangzhou Railway Vocational and","China:1","2616217"
-1,"Guangzhou Suyuan School","China:1","2632308"
-1,"Guangzhou Vocational University of","China:1","2631470"
-1,"Guangzhou Xinhua University","China:1","2622632"
-1,"Guangzhouhualixueyuan","China:1","2627143"
-1,"Guilin institute of information technology","China:1","2623400"
-1,"Guilin Institute of Information Technology","China:1","2623344"
-1,"Guizhou University of Commerce","China:1","2609824"
-1,"GXMZU","China:1","2609715"
-1,"GZHU&CSU&ZJU","China:1","2603908"
-1,"Handan University","China:1","2616837"
-1,"Harbin Far East University of Science and","China:1","2600091"
-1,"Harbin Finance University","China:1","2611944"
-1,"Harbin Guangsha College","China:1","2627978"
-1,"Harbin Insititute of Technology,Shenzhen","China:1","2621634"
-1,"Harbin Institude of Technology","China:1","2629431"
-1,"Harbin Institude of Technology Shenzhen","China:1","2621624"
-1,"Harbin Institude of Technology, Shenzhen","China:1","2611073"
-1,"Harbin Institute of Information Technology","China:1","2610121"
-1,"Harbin Institute of Technology (Shenzhen)","China:1","2621579"
-1,"Harbin Institute of Technology (weihai)","China:1","2600294"
-1,"HARBIN INSTITUTE OF TECHNOLOGY,","China:1","2621589"
-1,"Harbin Institute of Technology(Shenzhen)","China:1","2611009"
-1,"Harbin Institute ofTechnology,Shenzhen","China:1","2625695"
-1,"Harbin institution of technology","China:1","2603212"
-1,"Harbin Institution of Technology","China:1","2603619"
-1,"Harbin Institution of Technology Shenzhen","China:1","2629479"
-1,"HarbinInstitute of Technology","China:1","2601968"
-1,"HarbinInstitute of Technology, Weihai","China:1","2610151"
-1,"Hasanuddin University","Indonesia:1","2618667"
-1,"HBUE UNIVERSITY OF ECONOMICS","China:1","2612283"
-1,"HBUEI UNIVERSITY OF ECONOMICS","China:1","2612269"
-1,"He Fei University of Technology","China:1","2631186"
-1,"He'nan Normal University","China:1","2608517"
-1,"Hebei Agricultural University","China:1","2611093"
-1,"Hebei Normal University","China:1","2602663"
-1,"Hebei University of Architecture","China:1","2616720"
-1,"Hebei University Of Engineering","China:1","2608597"
-1,"Hebei University of Finance","China:1","2629003"
-1,"Hebei University of Technology & LUT","China:1","2616494"
-1,"Hebei University of Technology; LUT","China:1","2616743"
-1,"Hebei University of Technology(Beichen","China:1","2604522"
-1,"Hebei University of Water Resources and","China:1","2628324"
-1,"HeFei Normal University","China:1","2620549"
-1,"Hefei Science and Technology College","China:1","2615785"
-1,"Hefei University of Technology Xuancheng","China:1","2629240"
-1,"Hefei University Of Technology Xuancheng","China:1","2629370"
-1,"Hehai University","China:1","2605265"
-1,"Heifei University of Technology","China:1","2607585"
-1,"Heihe University","China:1","2603684"
-1,"Heilongjiang Institute of Technology","China:1","2600162"
-1,"Heilongjiang University of Chinese Medicine","China:1","2627418"
-1,"Heilongjiang University of Finance and","China:1","2605855"
-1,"Heilongjiang University of Science","China:1","2606926"
-1,"Heilongjiang University Of Science &","China:1","2630829"
-1,"Henan Agricultural University","China:1","2630711"
-1,"Henan Kaifeng College of Science","China:1","2606922"
-1,"Henan Normal Universtiy","China:1","2628714"
-1,"Hendrix College","USA:1","2623397"
-1,"Henu University","China:1","2626211"
-1,"Herbin Engineering University","China:1","2627961"
-1,"Heriot-Watt University Malaysia","Malaysia:1","2617354"
-1,"HFUU","China:1","2610133"
-1,"HKUST-GZ","China:1","2631996"
-1,"Hong Kong PolyU","Hong Kong (SAR) China:1","2609900"
-1,"HongKong Education University","China:1","2632942"
-1,"Hope College of Southwest Jiaotong","China:1","2616616"
-1,"Huanghuai University","China:1","2624786"
-1,"Huangzhong University of Science and","China:1","2628663"
-1,"Huazhong Universityof Science and","China:1","2607567"
-1,"Hubei Normal University","China:1","2601018"
-1,"Hubei University of Economic","China:1","2612272"
-1,"Hubei University of Education","China:1","2606220"
-1,"Hubei University of Science and","China:1","2632908"
-1,"huhai","China:1","2622629"
-1,"Hui Hua College of Hebei Normal University","China:1","2603966"
-1,"Hunan agricultral university","China:1","2617918"
-1,"Hunan Agriculture University","China:1","2612489"
-1,"Hunan Chemical Vocational Technology","China:1","2610161"
-1,"Hunan First Normol University","China:1","2619720"
-1,"Hunan Institution of Science and","China:1","2614886"
-1,"Hunan University of Humanities, Science","China:1","2618336"
-1,"HUST","China:1","2623542"
-1,"Huzhou University","China:1","2630466"
-1,"ianjin University of Science and Technology","China:1","2630793"
-1,"In Mongolian Normal University","China:1","2606736"
-1,"Indiana University South Bend","USA:1","2606346"
-1,"Information Engineer University","China:1","2626253"
-1,"INNER MONGOLIA MINZU UNIVERSITY","China:1","2609615"
-1,"Inner Mongolia University of Finance and","China:1","2607715"
-1,"Inner Mongolia University of Science and","China:1","2603489"
-1,"Inner Mongoliar Normal University","China:1","2627307"
-1,"Institut Teknologi Sepuluh Nopember","Indonesia:1","2618609"
-1,"Institute of Seismology, China Earthquake","China:1","2615148"
-1,"Iolani School","USA:1","2628497"
-1,"Jiangsu Normal University KeWen College","China:1","2632960"
-1,"JiangSu Normal University QuanShan","China:1","2632302"
-1,"JiangsuOceanUniversity","China:1","2601872"
-1,"JiangSUUniversity","China:1","2625550"
-1,"Jiangxi Hongzhou Vocational College","China:1","2619604"
-1,"Jiangxi New Energy Technology Institute","China:1","2603869"
-1,"Jiangxi Normal University, Nanchang, China","China:1","2609257"
-1,"Jiangxi Science and Technology Normal","China:1","2629694"
-1,"Jiangxi Teachers College","China:1","2623457"
-1,"Jiangxi University of Engineering","China:1","2603379"
-1,"Jiangxi University of Traditional Chinese","China:1","2614258"
-1,"Jiangxi University of Water Resources and","China:1","2600256"
-1,"Jiaxing Nanhu University","China:1","2621450"
-1,"Jilin Engineering Normal University","China:1","2606385"
-1,"Jilin Univeristy","China:1","2608618"
-1,"Jilin University of Chemical Technology","China:1","2608641"
-1,"Jinan University – University of Birmingham","China:1","2618500"
-1,"Jinggangshan University","China:1","2632763"
-1,"Jining University","China:1","2628880"
-1,"JinLing Insititute of Technology","China:1","2620057"
-1,"Jiujiang Institute of Technology","China:1","2604741"
-1,"Karamay Vocational and Technical College","China:1","2622421"
-1,"Kean University","USA:1","2625446"
-1,"Kenyon College","USA:1","2632988"
-1,"Keyi College of Zhejiang Sci-Tech","China:1","2601594"
-1,"Kunming University","China:1","2601897"
-1,"La Trobe University","Australia:1","2628636"
-1,"Lancaster University","United Kingdom:1","2628439"
-1,"Lanzhou City University","China:1","2600012"
-1,"Lanzhou Institute of Technology","China:1","2629204"
-1,"Lanzhou University (China)","China:1","2625797"
-1,"Law & Business College of Hubei University","China:1","2621243"
-1,"Lewis & Clark College","USA:1","2633001"
-1,"Lianyungang Technical College","China:1","2602911"
-1,"Liaoning Railway Vocational and Technical","China:1","2601352"
-1,"Liaoning Technical Univeersity","China:1","2631333"
-1,"Liaoning Univerisity","China:1","2608664"
-1,"Liaoning University of Engineering and","China:1","2613280"
-1,"Liaoning University of International","China:1","2610711"
-1,"Liaoning university of science and","China:1","2603246"
-1,"Liaoning University of Science and","China:1","2600816"
-1,"Liaoning University of Technology","China:1","2632069"
-1,"LiaoNingUniversity","China:1","2609371"
-1,"Lingnan Normal Universwity","China:1","2613691"
-1,"Lingnan University","Hong Kong (SAR) China:1","2623892"
-1,"LNU(Liaoning University)","China:1","2615108"
-1,"Longwood Senior High School","USA:1","2633029"
-1,"LUT University","Finland:1","2631667"
-1,"Lycée Jean Baptiste Say","France:1","2629917"
-1,"Lyuliang University","China:1","2603983"
-1,"Lznzhou University","China:1","2604271"
-1,"Macao Polytechnic University","China:1","2627740"
-1,"Mahindra University","India:1","2622790"
-1,"master","China:1","2624700"
-1,"Mathematics and Applied Mathematics","China:1","2602768"
-1,"McMaster University","Canada:1","2621400"
-1,"Meredith College","USA:1","2622995"
-1,"Miami University (Ohio)","USA:1","2632903"
-1,"MianYang Teacher's College","China:1","2626308"
-1,"MianYangTeacher'College","China:1","2619415"
-1,"MianyangTeachers'College","China:1","2631827"
-1,"Mohamed bin Zayed University of Artificial","Canada:1","2618087"
-1,"Montverde Academy","USA:1","2623449"
-1,"Mt. San Antonio College","USA:1","2610172"
-1,"Mudanjiang University","China:1","2606256"
-1,"Nan Chang Hangkong University","China:1","2632929"
-1,"Nan Jing Normal University","China:1","2623553"
-1,"Nan Kai University","China:1","2631440"
-1,"Nanchang Business College of Jiangxi","China:1","2603795"
-1,"Nanchang instituter and information","China:1","2622206"
-1,"Nanchang JiaoTong Institute","China:1","2602993"
-1,"NangChang University","China:1","2623798"
-1,"Nangjing University","China:1","2632509"
-1,"Nanjing Aqricultural University","China:1","2601909"
-1,"Nanjing Audit University Jinshen College","China:1","2602774"
-1,"Nanjing Foreign Language School","China:1","2629276"
-1,"NanJing Forestry Universitty","China:1","2621172"
-1,"Nanjing Hydraulic Research Institute","China:1","2628060"
-1,"Nanjing Institude of Technology","China:1","2623804"
-1,"Nanjing Tech University Pujiang Institute","China:1","2610131"
-1,"Nanjing Univeristy","China:1","2626097"
-1,"Nanjing University of Industry Technology","China:1","2604575"
-1,"Nanjing Vocational College of Information","China:1","2619313"
-1,"Nanjing Vocational Institute of Railway","China:1","2607444"
-1,"Nanjing Vocational University of Industry","China:1","2611204"
-1,"NanjingAviationAerospace University","China:1","2618868"
-1,"nankai","China:1","2628374"
-1,"Nankai","China:1","2632209"
-1,"Nankai University,Tianjin,China","China:1","2604005"
-1,"Nankai unversity","China:1","2628640"
-1,"NankaiUniversity","China:1","2611141"
-1,"Nanning University","China:1","2608820"
-1,"Nantong University Xinglin College","China:1","2626945"
-1,"Nation University of Defense Technology","China:1","2624850"
-1,"National Institute of Metrology","China:1","2632674"
-1,"Nazarbayev Intellectual School of Science","Kazakhstan:1","2632995"
-1,"Neusoft lnstitude Guangdong","China:1","2603817"
-1,"Ningbo Nottingham University","China:1","2629378"
-1,"Ningde Normal University","China:1","2623510"
-1,"Ningxia institute of Technology","China:1","2619409"
-1,"NKU","China:1","2630259"
-1,"North Carolina State University","USA:1","2632915"
-1,"North China Electric Power University Bao","China:1","2630786"
-1,"North China Electric Power University,","China:1","2606735"
-1,"North China Electric Power Unversity","China:1","2627585"
-1,"North China Institute of Aerospace","China:1","2628937"
-1,"North East Electric Power University","China:1","2613233"
-1,"North East University","China:1","2618264"
-1,"North Minzu University&Lingnan Normal","China:1","2621214"
-1,"North-eastern University","China:1","2626024"
-1,"Northeast Agriculture University","China:1","2626797"
-1,"Northeast Electric Power Univercity","China:1","2620169"
-1,"Northeast Nomal University","China:1","2629354"
-1,"Northeast University","China:1","2619675"
-1,"Northeast University (China)","China:1","2615196"
-1,"Northeast University, China","China:1","2619950"
-1,"Northeasten university","China:1","2616141"
-1,"Northeasten University","China:1","2614823"
-1,"Northeastern Normal University","China:1","2630382"
-1,"Northeastern Univercity(CN)","China:1","2620371"
-1,"Northeastern Univerdity","China:1","2615816"
-1,"Northeastern University (Shenyang, China)","China:1","2615243"
-1,"Northeastern University Faculty of Science","China:1","2617554"
-1,"Northeastern University Shenyang","China:1","2619479"
-1,"Northeastern University Shenyang, China","China:1","2615335"
-1,"Northeastern university,China","China:1","2618815"
-1,"Northeastern University,China","China:1","2618223"
-1,"Northeastern University(CN","China:1","2608801"
-1,"Northeastern University(Shenyang,P.R.","China:1","2620130"
-1,"Northern Arizona","USA:1","2629908"
-1,"Northern University","China:1","2617983"
-1,"Northwest Agriculture and Forestry","China:1","2614434"
-1,"Northwest Minzu University","China:1","2600968"
-1,"Northwest university, China","China:1","2607339"
-1,"Northwest University(Xi'an China)","China:1","2611521"
-1,"NorthwestA&FUniversity","China:1","2603028"
-1,"Northwestern Polytechincal University","China:1","2610174"
-1,"NPU","China:1","2627745"
-1,"NYU means New York University","China:1","2632598"
-1,"NYU Shanghai","Vietnam:1","2628194"
-1,"Ocean Univercity of China","China:1","2601828"
-1,"Ocean Univeristy of China","China:1","2627756"
-1,"Ocean University of China OUC","China:1","2619766"
-1,"Oregon State University","USA:1","2631717"
-1,"outhwestern University of Finance and","China:1","2619067"
-1,"Panjin Campus of Dalian University of","China:1","2631851"
-1,"Panzhihua Universityc","China:1","2609686"
-1,"Peking Union Medical College","China:1","2623847"
-1,"People‘s public security university of China","China:1","2624286"
-1,"People‘s Public Security University of China","China:1","2621210"
-1,"personal institution","China:1","2604213"
-1,"Petra Christian University","Indonesia:1","2620123"
-1,"Pinetree Secondary","Canada:1","2632070"
-1,"Pioneer Charter School of Science II","USA:1","2633021"
-1,"Pioneer College,Inner Mongolia University","China:1","2603219"
-1,"Qilu Medical University","China:1","2602851"
-1,"Qilu University","China:1","2626105"
-1,"QILU UNIVERSITY OF TECHNOLOGY ,","China:1","2618409"
-1,"QINDAO UNIVERSITY OF TECHNOLOGY","China:1","2629693"
-1,"Qing Hai University","China:1","2616014"
-1,"Qingdao City Univercity","China:1","2616980"
-1,"Qingdao University Central South","China:1","2601595"
-1,"qinghai univesity","China:1","2624235"
-1,"Qinhuangdao Branch of Northeastern","China:1","2611783"
-1,"Qiqihar University","China:1","2632601"
-1,"QMUL-BUPT","China:1","2608596"
-1,"Queen's University","Canada:1","2601385"
-1,"Rajshahi University of Engineering &","Bangladesh:1","2600627"
-1,"Ren Min University of China","China:1","2607704"
-1,"Renmin Univercity of China","China:1","2604502"
-1,"Renmin University","China:1","2628740"
-1,"Renmin University of China,Zhongguancun","China:1","2611348"
-1,"Renming University of China","China:1","2629148"
-1,"Research Institute","China:1","2619118"
-1,"Rowan College South Jersey","USA:1","2602680"
-1,"RUC","China:1","2617180"
-1,"RWTH-Aachen University","China:1","2603736"
-1,"Sacred Heart University","USA:1","2601610"
-1,"Sanya University","China:1","2606642"
-1,"School of Ecology, Sun Yat-sen University","China:1","2625615"
-1,"School of Management,Fudan University","China:1","2627413"
-1,"School of Mathematic and Statistics,Wuhan","China:1","2617989"
-1,"School of Mathematical Sciences, Xiamen","China:1","2602938"
-1,"School of Mathematical Sciences,Anhui","China:1","2626703"
-1,"School of Mathmatics and Statistics, Wuhan","China:1","2612030"
-1,"School of Opening Learning and Education","China:1","2621020"
-1,"School of Remote Sensing and Information","China:1","2610320"
-1,"School of Statistics and Computer,Capital","China:1","2629291"
-1,"School of Statistics, Capital University of","China:1","2613801"
-1,"School of Statistics, Renmin University of","China:1","2615897"
-1,"SDUFE","China:1","2614972"
-1,"Shaanxi Fashion Engineering University","China:1","2607942"
-1,"Shaanxi Polytechnic university","China:1","2628896"
-1,"Shaanxi Polytechnic University","China:1","2628980"
-1,"Shaanxi University of Science &Technology","China:1","2612445"
-1,"Shan Dong University of technology","China:1","2615754"
-1,"Shandong Agriculture University","China:1","2632573"
-1,"SHANDONG JIAOTONG UNIVERSITY","China:1","2623844"
-1,"Shandong Management University","China:1","2632905"
-1,"Shandong Polytechnic","China:1","2622412"
-1,"Shandong Uninversity","China:1","2610630"
-1,"Shandong univeristy","China:1","2632388"
-1,"Shandong University of Finance and Econo","China:1","2610474"
-1,"Shandong University of Traditional Chinese","China:1","2602826"
-1,"SHANDONG UNIVERSITY, WEIHAI","China:1","2619678"
-1,"Shandong University,Qingdao","China:1","2630131"
-1,"ShanDong Universty of Science and","China:1","2630210"
-1,"Shandong Vocational Institute of Fashion","China:1","2607733"
-1,"Shandong Yingcai Unversity","China:1","2630513"
-1,"SHANDONGJIAOTONG UNIVERSITY","China:1","2632843"
-1,"Shanghai Business School","China:1","2602569"
-1,"Shanghai Communications Polytechnic","China:1","2630808"
-1,"Shanghai Dianji University","China:1","2610325"
-1,"Shanghai DianJi University","China:1","2602571"
-1,"Shanghai Foreign Language School","China:1","2606708"
-1,"Shanghai International Study University","China:1","2616453"
-1,"Shanghai JaoTong University","China:1","2630533"
-1,"Shanghai Jianqiao University","China:1","2631353"
-1,"Shanghai Jiao Tong School","China:1","2602473"
-1,"Shanghai Jiao Tong Univers","China:1","2632517"
-1,"Shanghai Jiao Tong Univrsity","China:1","2603552"
-1,"Shanghai JiaoTongUniversity","China:1","2601989"
-1,"Shanghai Normal University Tianhua","China:1","2632910"
-1,"Shanghai Normal University TIANHUA","China:1","2630512"
-1,"Shanghai Pinghe School","China:1","2614504"
-1,"Shanghai Starriver Bilingual School","China:1","2604636"
-1,"Shanghai Tech University","China:1","2629136"
-1,"Shanghai University Of Engineering","China:1","2603550"
-1,"Shanghai University of Finance&Economics","China:1","2609520"
-1,"Shanghai Wuai Senior High School","China:1","2626384"
-1,"ShanghaiJiaoTongUniversity","China:1","2624609"
-1,"ShanghaiTech","China:1","2614026"
-1,"Shantou Univeisity","China:1","2602839"
-1,"Shanxi General Aviation Vocational and","China:1","2606247"
-1,"Shanxi Institute Science and Technology","China:1","2602102"
-1,"Shanxi Jinzhong Institute of Technology","China:1","2628183"
-1,"Shanxi Medical University","China:1","2614817"
-1,"Shanxi University of Science and","China:1","2605409"
-1,"Shanxi University, School of Electric Power,","China:1","2611186"
-1,"Shanxi Vocational University of Engineering","China:1","2622804"
-1,"Shanyang University of Technology","China:1","2617020"
-1,"Shenyang Areospace university","China:1","2631891"
-1,"Shenyang Institute of Engineering","China:1","2619790"
-1,"Shenyang Ligong University","China:1","2626804"
-1,"Shenyang Pharmaceutial University","China:1","2621485"
-1,"Shenyang University of Technoligy","China:1","2612395"
-1,"Shenzhen MSU_BIT University","China:1","2603788"
-1,"Shenzhen MSU-BIT University, Longgang","China:1","2605094"
-1,"Shenzhen MSU-BIT University,Longgang","China:1","2615421"
-1,"SHENZHEN NANSHAN FOREIGN","China:1","2632552"
-1,"Shenzhen Unversity of Information","China:1","2616333"
-1,"Shihezi Univesity","China:1","2602324"
-1,"Shijiazhuang Tiedao University Sifang","China:1","2632467"
-1,"Shijiazhuang University","China:1","2617160"
-1,"ShijiazhuangTiedao University","China:1","2614160"
-1,"shnaghai university","China:1","2603503"
-1,"Si Chuan University","China:1","2630148"
-1,"Sichuan Academy of Social Sciences","China:1","2632864"
-1,"Sichuan Agriculture University","China:1","2626112"
-1,"Sichuan University - Pittsburgh Institute","China:1","2611992"
-1,"Sichuan University Pittsburgh Institution","China:1","2631556"
-1,"Sichuan University(SCU)","China:1","2601856"
-1,"Singapore Institute of Management","China:1","2631425"
-1,"Singapore institution of management","China:1","2632362"
-1,"SMBU","China:1","2610717"
-1,"Sochow University","China:1","2614083"
-1,"Software Engineering Institute of","China:1","2632961"
-1,"Soochow Univercity","China:1","2606702"
-1,"Sorbonne University","France:1","2630442"
-1,"South China Agricutural University","China:1","2602773"
-1,"South China Normal Univerisity","China:1","2600725"
-1,"South China Normal University(Nanhai","China:1","2603714"
-1,"South China Normal Unviersity","China:1","2608852"
-1,"South China of Technology","China:1","2604675"
-1,"South China Univeristy of Technology","China:1","2606748"
-1,"South China University of","China:1","2618163"
-1,"South China University of Technology &","China:1","2630956"
-1,"South China University of Techology","China:1","2605800"
-1,"South Medical University","China:1","2608481"
-1,"Southeast Universaty","China:1","2615253"
-1,"Southeast University Road","China:1","2610714"
-1,"Southeast Univetsity","China:1","2613997"
-1,"Southeast Unversity","China:1","2611416"
-1,"Southweatern University of Finance and","China:1","2607483"
-1,"Southwest Jiao Tong University","China:1","2616002"
-1,"Southwest Jiaotong University, China","China:1","2604626"
-1,"Southwest Medical University","China:1","2629400"
-1,"Southwest University of Science","China:1","2600269"
-1,"Southwestern University of Finance and Ec","China:1","2614075"
-1,"SouthwestJiaotong University","China:1","2629643"
-1,"SouthwestUniversity","China:1","2613727"
-1,"Soutneast University","China:1","2608577"
-1,"Springfield College","USA:1","2631264"
-1,"Springfield Commonwealth Academy","USA:1","2624384"
-1,"Springfield Commonwealth Academy (EEI","China:1","2624436"
-1,"Sri Kuala Lumpur International School","Malaysia:1","2632764"
-1,"St. Stephen's School","Italy:1","2610454"
-1,"Stanford University","USA:1","2600747"
-1,"Step By Step School","India:1","2631503"
-1,"SUIBE","China:1","2602227"
-1,"Sun Yat - sen University","China:1","2619405"
-1,"Sun Yat sen university","China:1","2628589"
-1,"Sun Yat Sen University","China:1","2624768"
-1,"Sun Yat-sen University‬","China:1","2631326"
-1,"Sun Yat-sen University.","China:1","2628834"
-1,"Sun Yat-sen University(Shenzhen Campus)","China:1","2632450"
-1,"Sun yat-sun University","China:1","2613028"
-1,"Sun Yatse-n University","China:1","2618617"
-1,"Sun Yet-sen University","China:1","2613717"
-1,"SUN YET-SEN UNIVERSITY","China:1","2621049"
-1,"SUNY Fredonia","USA:1","2607706"
-1,"SunYat-Sen University","China:1","2627223"
-1,"sustech","China:1","2607613"
-1,"Suzhou Centennial College","China:1","2603512"
-1,"Suzhou Foreign Language School","China:1","2606259"
-1,"Suzhou High School Of Jiangsu Province","China:1","2613967"
-1,"Suzhou University","China:1","2607947"
-1,"SuZhou University","China:1","2610752"
-1,"SWU","China:1","2611680"
-1,"SYSU university","China:1","2616257"
-1,"SZTU","China:1","2606557"
-1,"Taihu University of Wuxi","China:1","2601506"
-1,"Taishan College of Science and Technology","China:1","2610295"
-1,"Taizhou Vocational College of Science &","China:1","2602021"
-1,"Tan Kah Kee College, Xiamen University","China:1","2630908"
-1,"Taylor University","USA:1","2619576"
-1,"TELKOM UNIVERSITY","Indonesia:1","2618662"
-1,"Texas A&M University","USA:1","2633023"
-1,"The Capital University And Business","China:1","2626146"
-1,"The Chinese University of Hong (Shenzhen)","China:1","2632009"
-1,"The Chinese University of Hong Kong ,","China:1","2614032"
-1,"The Chinese University of Hong Kong ,Shen","China:1","2626265"
-1,"The Chinese University of Hong Kong,Shen","China:1","2622553"
-1,"The Chinese University of Hong Kong(Shen","China:1","2632888"
-1,"the Chinese University of HongKong","Hong Kong (SAR) China:1","2617859"
-1,"The Chinese University of Hongkong","China:1","2627967"
-1,"The Chinese University of HongKong","China:1","2632174"
-1,"The Chinese University Of Hongkong","China:1","2606729"
-1,"The College of Wooster","USA:1","2631366"
-1,"The Engineering &Technical College of","China:1","2601626"
-1,"The Hong Kong Polytecnic University","Hong Kong (SAR) China:1","2631821"
-1,"The Nankai University","China:1","2628182"
-1,"The North University of China","China:1","2621069"
-1,"The Northeast University","China:1","2617670"
-1,"The ocean. University of China","China:1","2627774"
-1,"The South China University of Technology","China:1","2632117"
-1,"The Southwestern University of Finance","China:1","2629015"
-1,"The Sun Yat-sen University","China:1","2620494"
-1,"The University of International Business","China:1","2604952"
-1,"The University of New South Wales","Australia:1","2604964"
-1,"The University of Nottingham-Ningbo","China:1","2602066"
-1,"The University of Nottingham,Ningbo China","China:1","2609492"
-1,"The University of Queensland","Australia:1","2600121"
-1,"The university of science and technology of","China:1","2600254"
-1,"the university of Sydney","China:1","2631755"
-1,"The University of sydney","Australia:1","2631641"
-1,"The Wuhan University","China:1","2623426"
-1,"Tianfu College of Southwestern University","China:1","2631461"
-1,"Tianjin Foreign Study University","China:1","2601846"
-1,"Tianjin Gongye university","China:1","2620348"
-1,"Tianjin Railway Technical and Vocational","China:1","2604545"
-1,"Tianjin Renai College","China:1","2628142"
-1,"TIANJIN RENAI COLLEGE","China:1","2605564"
-1,"Tianjin Sino-German University of Applied","China:1","2603519"
-1,"Tianjin University of Financial and","China:1","2611436"
-1,"Tianjin University of Sports","China:1","2610319"
-1,"Tianjin University,Tianjin,China","China:1","2628948"
-1,"Tianjin University&Xi'an University of Posts","China:1","2626104"
-1,"Tianjin Vocational Institute","China:1","2627881"
-1,"Tibet University","China:1","2607144"
-1,"Tohoku University","China:1","2616855"
-1,"Tongji University, China","China:1","2624777"
-1,"Tongji Zhejiang College","China:1","2632967"
-1,"Tower Hill School","USA:1","2626684"
-1,"Tsinghua University High School Zhixin","China:1","2609846"
-1,"UC, Irvine","USA:1","2607195"
-1,"UESTC (University of Electronic Science","China:1","2604296"
-1,"United States Military Academy","USA:1","2632795"
-1,"Universidad Nacional de Colombia","Colombia:1","2631686"
-1,"Università Bocconi","Italy:1","2609941"
-1,"Universitas Airlangga","Indonesia:1","2618768"
-1,"UNIVERSITAS BHAYANGKARA JAKARTA","Indonesia:1","2618679"
-1,"Universitas Budi Luhur","Indonesia:1","2618653"
-1,"Universitas Gadjah Mada","Indonesia:1","2618436"
-1,"Universitas Islam Balitar Blitar","Indonesia:1","2618620"
-1,"Universitas Jambi","Indonesia:1","2618626"
-1,"Universitas Padjadjaran","Indonesia:1","2618658"
-1,"UNIVERSITAS PENDIDIKAN INDONESIA","Indonesia:1","2618615"
-1,"Universitas Teknologi Yogyakarta","Indonesia:1","2618612"
-1,"UNIVERSITAS TRISAKTI","Indonesia:1","2618614"
-1,"Universitas Udayana","Indonesia:1","2618622"
-1,"UNIVERSITI XIAMEN MALAYSIA","Malaysia:1","2600557"
-1,"University of Alabama at Birmingham","USA:1","2625555"
-1,"University of Arizona","USA:1","2632142"
-1,"University of Bern","Switzerland:1","2614572"
-1,"University of Birmingham","United Kingdom:1","2623409"
-1,"University of Birminghan","United Kingdom:1","2630322"
-1,"University of California, Berkeley","USA:1","2633024"
-1,"University of California, Davis","USA:1","2604890"
-1,"University of Cambridge","United Kingdom:1","2605759"
-1,"University of Cambridge - Tilburg University","United Kingdom:1","2602467"
-1,"University of Cincinnati","USA:1","2600772"
-1,"University of Debrecen","Hungary:1","2617907"
-1,"University of Dundee","United Kingdom:1","2607961"
-1,"University of Electrionic Science and","China:1","2628763"
-1,"University of Electronics and Science","China:1","2616962"
-1,"University of Essex","United Kingdom:1","2625445"
-1,"University of International Businesss and","China:1","2629490"
-1,"University of International Bussiness and","China:1","2601839"
-1,"University of Lancashire","China:1","2622003"
-1,"University of Leeds","United Kingdom:1","2631223"
-1,"University of Liverpool","China:1","2614590"
-1,"University of Macao","China:1","2604443"
-1,"University of Manchester","United Kingdom:1","2632233"
-1,"University of Massachusetts Amherst","USA:1","2631668"
-1,"University of Minnesota","China:1","2625617"
-1,"University of Minnesota - Twin Cities","China:1","2631685"
-1,"University of Montevallo","USA:1","2621330"
-1,"University of New South Wales","USA:1","2631681"
-1,"University of North Carolina Charlotte","USA:1","2631671"
-1,"University of Nottingham in Ningbo China","China:1","2617266"
-1,"University of Nottingham Ningbo","China:1","2631187"
-1,"University of Nottingham Ningbo, China","China:1","2629655"
-1,"University of Nottingham, Ning bo, China","China:1","2610509"
-1,"University of Nottingham, Ningbo China","China:1","2620324"
-1,"University of Pittsburgh","China:1","2630203"
-1,"University of Reading","United Kingdom:1","2604342"
-1,"University of Rochester","USA:1","2619977"
-1,"University of Science & Technology Beijing","China:1","2616349"
-1,"University Of Science & Technology Beijing","China:1","2631929"
-1,"University of Shanghai","China:1","2631860"
-1,"University of South Carolina","USA:1","2602049"
-1,"University of Sydney","Australia:1","2629332"
-1,"University of Texas at austin","USA:1","2628307"
-1,"University of the Chinese Academy of","China:1","2614846"
-1,"University of Toronto","Canada:1","2609976"
-1,"University of Toronto - Mississauga","Canada:1","2633010"
-1,"University of Utah","USA:1","2618069"
-1,"University of Virginia","USA:1","2631856"
-1,"University of Warwick","United Kingdom:1","2601192"
-1,"University of Washington, Seattle","USA:1","2631714"
-1,"University of Washinton","USA:1","2618130"
-1,"University of Wisconsin - Madison","USA:1","2604980"
-1,"University of Wisconsin Madison","USA:1","2611882"
-1,"University Putra Malaysia","China:1","2616384"
-1,"Unversity of Science and Technology of","China:1","2631541"
-1,"UW-Madison","USA:1","2622010"
-1,"Village Christian High School","USA:1","2633035"
-1,"Virginia Polytechnic Institute and State","USA:1","2622915"
-1,"Virginia Tech","USA:1","2628477"
-1,"Wake Forest University","USA:1","2629901"
-1,"Wanjiang University of Technology","China:1","2613467"
-1,"Wannan Medical College","China:1","2628689"
-1,"Wannan Medical University","China:1","2631888"
-1,"Weifang University","China:1","2617915"
-1,"Wenhua College","China:1","2625935"
-1,"WenZhou Kean University","China:1","2601375"
-1,"WenZhou-Kean Universiy","China:1","2603937"
-1,"Westlake University","China:1","2622977"
-1,"Westmont High School","USA:1","2632869"
-1,"Whuhan University","China:1","2624845"
-1,"Williams College","USA:1","2631609"
-1,"Wu han university of science and","China:1","2613650"
-1,"Wuchangshouyi University","China:1","2616556"
-1,"Wuhan Cogdel Cranleigh High School","China:1","2627506"
-1,"Wuhan Foreign Languages School","China:1","2632599"
-1,"Wuhan uniersity","China:1","2628931"
-1,"Wuhan University, China","China:1","2609235"
-1,"Wuhan University, Wuhan, Hubei, China","China:1","2602609"
-1,"Wuhan Universty","China:1","2620865"
-1,"Wuyi University Institution","China:1","2608590"
-1,"Wuyi University(Fujian)","China:1","2609497"
-1,"Wuyi university&Changzhou Institute of","China:1","2632613"
-1,"XDU","China:1","2623913"
-1,"Xi 'an International Studies University","China:1","2628359"
-1,"Xi 'an Jiaotong University","China:1","2610866"
-1,"Xi 'an Shiyou University","China:1","2603571"
-1,"Xi 'an University of Posts and","China:1","2629080"
-1,"Xi an University Of Science And Technology","China:1","2601149"
-1,"Xi’an Aeronautical Polytechnic Institute","China:1","2632324"
-1,"Xi'an High-Tech University","China:1","2616115"
-1,"Xi'an Innovation College of Yan'an","China:1","2603260"
-1,"Xi‘an International Studies University","China:1","2613867"
-1,"Xi'an Jiao Tong Liverpool University","China:1","2630315"
-1,"Xi'an Jiaotong Liverpool University","China:1","2621421"
-1,"Xi‘an Jiaotong University","China:1","2616409"
-1,"XI'AN JIAOTONG UNIVERSITY CITY","China:1","2604103"
-1,"Xi‘an Jiaotong-Liverpool University","China:1","2628054"
-1,"Xi'an Petroleum University","China:1","2604207"
-1,"Xi’an Polytechnic University","China:1","2606120"
-1,"Xi‘an Shiyou University","China:1","2613190"
-1,"Xi'an University","China:1","2631421"
-1,"Xi'an University of","China:1","2610001"
-1,"XI'AN University of","China:1","2632440"
-1,"Xi'an University of Finance and Economics","China:1","2624277"
-1,"Xi’an University of Finance and Economics","China:1","2617823"
-1,"Xi'an Vocational University of Automobile","China:1","2619709"
-1,"Xi`an International Studies University","China:1","2631928"
-1,"Xi`an Jiaotong University","China:1","2618232"
-1,"Xi`an University Of Science And","China:1","2600172"
-1,"Xiamen Uninversity","China:1","2612525"
-1,"Xiamen Univerisity Malaysia","Malaysia:1","2604569"
-1,"Xiamen Universicity","China:1","2612079"
-1,"Xiamen University ( Xiang'an Campus )","China:1","2603842"
-1,"Xiamen University Malasya","China:1","2620465"
-1,"Xiamen University of Malaysia","China:1","2603952"
-1,"XIAMEN UNIVERSITY TAN KAH KEE","China:1","2609137"
-1,"Xian International Studies University","China:1","2628839"
-1,"Xiangtan Institute of Technology","China:1","2616028"
-1,"Xianjiaotong University","China:1","2604161"
-1,"XianJiaotong University","China:1","2611759"
-1,"XianJiaotong- Liverpool University","China:1","2628012"
-1,"XianJiaotongLiverpool University","China:1","2613805"
-1,"XIDAIN UNIVERSITY","China:1","2622304"
-1,"Xinan university","China:1","2632468"
-1,"XingTai University","China:1","2612363"
-1,"Xinjiang Institute of Engineering","China:1","2619789"
-1,"Xinjiang Normal University","China:1","2600704"
-1,"Xinjiang Police College","China:1","2607991"
-1,"Xinjiang University of Finance and","China:1","2624184"
-1,"Xinjiang University(Boda Campus)","China:1","2628863"
-1,"Xinxiang University","China:1","2619765"
-1,"Xizang Agricultural and Animal Husbandry","China:1","2601755"
-1,"Xizang University (Najin Campus)","China:1","2602495"
-1,"XJTLU University","China:1","2626674"
-1,"Xu Hai College , China University of Mining","China:1","2619439"
-1,"Xu Hai College of China University of","China:1","2613256"
-1,"Xuhai College ,China University of Mining","China:1","2624226"
-1,"Xuhai College of China University of Mining","China:1","2630123"
-1,"XUHAI COLLEGE, CHINA UNIVERSITY OF","China:1","2613282"
-1,"Xuzhou Institute of Industrial Technology","China:1","2600888"
-1,"Yale University","USA:1","2632883"
-1,"Yan’an University","China:1","2624681"
-1,"Yancheng Institute Of Technology","China:1","2600007"
-1,"Yanching institute of Technology","China:1","2621097"
-1,"Yangzhou Univercity","China:1","2624256"
-1,"Yantai Institute of Science and Technology","China:1","2615241"
-1,"Yantai Institute of Technology","China:1","2613575"
-1,"Yinchuan University of Energy","China:1","2601471"
-1,"Yonsei University","South Korea:1","2604192"
-1,"Yu Lin Energy Technology Vocational","China:1","2604112"
-1,"Yunan University of Finance and","China:1","2610388"
-1,"Yunnan College Of Business Management","China:1","2630160"
-1,"Yunnan Industry and Information Vocational","China:1","2629962"
-1,"Yunnan University of Business","China:1","2631833"
-1,"Yunnan University of Economics and","China:1","2629954"
-1,"Yunnan Universuity of Finance and","China:1","2619831"
-1,"Zaozhuang University","China:1","2603702"
-1,"ZaoZhuang University","China:1","2609396"
-1,"Zhang","China:1","2623441"
-1,"Zhangjiajie College","China:1","2613060"
-1,"Zhejiang A & F University","China:1","2604421"
-1,"Zhejiang A&F University Jiyang College","China:1","2632284"
-1,"Zhejiang Business College","China:1","2610370"
-1,"Zhejiang Fashion Institute of Technology","China:1","2628920"
-1,"Zhejiang Gongshang Univercity","China:1","2631544"
-1,"Zhejiang Pharmaceutical University","China:1","2612041"
-1,"Zhejiang Polytechnic University of","China:1","2610259"
-1,"Zhejiang Uiiversity","China:1","2629849"
-1,"Zhejiang University International Campus","China:1","2616520"
-1,"Zhejiang University of Science &","China:1","2610500"
-1,"Zhejiang University of Science and","China:1","2604561"
-1,"Zhejiang University of Water Resources","China:1","2607090"
-1,"Zhejiang University-University of Illinois","China:1","2632261"
-1,"Zhejiang Yuexiu University","China:1","2616991"
-1,"Zheng Zhou University","China:1","2632678"
-1,"Zhengzhou College of Finance and","China:1","2602646"
-1,"Zhengzhou Shengda University Of","China:1","2602638"
-1,"Zhengzhou Uinversity of Aeronautics","China:1","2620922"
-1,"Zhjiang University of Water Resources and","China:1","2608698"
-1,"Zhonghuan Informaion College Tianjin","China:1","2623635"
-1,"ZHONGNAN UNIVERSITY OF ECONOMICS","China:1","2625487"
-1,"ZhongNan University of Economics and","China:1","2607062"
-1,"Zhongshan University","China:1","2629411"
-1,"zhongyangcaijindaxue","China:1","2620391"
-1,"Zhongyuan Institute of Science and","China:1","2606678"
-1,"Zhoukou Normal University","China:1","2630712"
-1,"Zhuhai Campus of Beijing Normal","China:1","2618335"
-1,"Zhujiang College of South China","China:1","2603893"
-1,"Zhujiang College,South China Agricultural","China:1","2630916"
-1,"ZJU-UIUC Institute","China:1","2600450"
-1,"Zunyi Normal University","China:1","2609236"
+﻿count,institution,countries,sample_teams
+29,University of science and technology,China:29,2612998 2628860 2612372 2612425 2613702 2614648 2618561 2608478
+5,Jiangxi Polytechnic Institute,China:5,2601253 2601306 2601585 2601097 2601041
+4,Cal Poly Humboldt,USA:4,2604787 2604788 2629913 2629914
+4,Indiana University of Pennsylvania,USA:4,2632823 2632824 2631635 2632829
+4,Institut Teknologi Bandung,Indonesia:4,2627117 2618587 2627114 2627111
+4,John Carroll University,USA:4,2631342 2631344 2631356 2631351
+4,Pacific Lutheran University,USA:4,2629884 2629887 2629888 2629886
+4,Pepperdine University,USA:4,2628481 2628482 2628480 2628479
+4,Rensselaer Polytechnic Institute,USA:4,2630136 2630204 2630225 2631939
+4,Saint Martin's University,USA:4,2628789 2628778 2621245 2628786
+4,University of British Columbia,Canada:4,2603133 2606239 2601850 2607485
+4,University of Southampton,China:3 United Kingdom:1,2620959 2629406 2629922 2622961
+4,"Xuhai College, China University of Mining",China:4,2613204 2611712 2613285 2613245
+3,Bucea,China:3,2609607 2626989 2628883
+3,Carleton College,USA:3,2632895 2632893 2632892
+3,Changchun University,China:3,2625817 2607547 2622594
+3,Chengdu University,China:3,2615222 2626066 2623767
+3,China Agriculture University,China:3,2617255 2614562 2631476
+3,China University of Petroleum (Beijing),China:3,2611273 2607563 2626152
+3,Chongqing Medical University,China:3,2604290 2605598 2622527
+3,Chongqing University of Technology,China:3,2617413 2627366 2610668
+3,City College of Xian Jiaotong University,China:3,2613540 2618060 2614231
+3,Cornell University,USA:3,2631304 2631662 2631661
+3,Dalian Minzu University,China:3,2620688 2622731 2627953
+3,Flint Hill School,USA:3,2622991 2622992 2622994
+3,Gansu Agricultural University,China:3,2629193 2629798 2632358
+3,Gettysburg College,USA:3,2629844 2631640 2628454
+3,Guangdong Lingnan Vocational and Technical College,China:3,2611588 2611576 2611577
+3,Guangdong Peizheng College,China:3,2606734 2612365 2616936
+3,Guangdong University of Petrochemical,China:3,2615151 2613358 2628960
+3,Guiyang Institute of Humanities and Technology,China:3,2613564 2607825 2607819
+3,Hebei University of Engineering,China:3,2603783 2617532 2628230
+3,Hebei University of Environmental,China:3,2616850 2615930 2622710
+3,Henan Institute of Science and Technology,China:3,2624008 2624023 2624029
+3,Hong Kong Baptist University,Hong Kong (SAR) China:2 China:1,2612519 2613203 2603977
+3,Hong Kong Metropolitan University,China:2 Hong Kong (SAR) China:1,2627583 2628412 2622716
+3,Huanggang Normal University,China:3,2632798 2617876 2622703
+3,Hunan Institute of Technology,China:3,2617627 2627123 2620260
+3,"International Campus, Zhejiang University",China:3,2600808 2609275 2600709
+3,Jiangxi University of Applied Science,China:3,2605251 2605253 2601283
+3,Jiangxi University of Chinese Medicine,China:3,2626020 2632916 2632917
+3,Jilin University of Finance and Economics,China:3,2600040 2622032 2628739
+3,Jimei University,China:3,2604402 2630696 2619806
+3,KwangWoon University,South Korea:3,2611066 2611054 2611063
+3,Liao Ning University,China:3,2619453 2620630 2616611
+3,Liaocheng Universsity,China:3,2629060 2629070 2629068
+3,Longgang Experimental High School,China:3,2630655 2630670 2630690
+3,Nanyang Normal University,China:3,2627468 2627447 2627493
+3,Nanyang Technological University,Singapore:3,2617954 2600020 2612408
+3,NORTHWESTERN POLYTECHNICAL,China:3,2616351 2602695 2602884
+3,NWAFU,China:3,2621453 2621472 2626756
+3,Paivola School,Finland:3,2631652 2632690 2631653
+3,Pomona College,USA:3,2632001 2631979 2631955
+3,Qilu University of Technology (Shandong,China:3,2623429 2627026 2631192
+3,Qingdao City University,China:3,2614667 2616442 2616352
+3,Quanzhou University of Information,China:3,2607048 2626685 2632819
+3,Seattle Pacific University,USA:3,2621342 2606368 2631711
+3,Shaanxi Xueqian Normal University,China:3,2601296 2613708 2613705
+3,"Shandong University, Weihai",China:3,2621649 2632728 2615338
+3,Shangqiu Normal University,China:3,2625582 2618611 2621028
+3,Shenyang Normal University,China:3,2601459 2613626 2611187
+3,Silesian University of Technology,Poland:3,2602116 2632679 2625435
+3,Southeast University Cheng Xian College,China:3,2601447 2603883 2632510
+3,Southwest Jiaotong University Hope,China:3,2607659 2603347 2631228
+3,Suqian College,China:3,2612973 2606396 2609734
+3,Swarthmore College,USA:3,2602253 2602254 2602255
+3,Taipei American School,China:3,2631895 2631897 2631931
+3,Taishan University,China:3,2614797 2630742 2626627
+3,Tangshan normal university,China:3,2603601 2603616 2603608
+3,Telkom University,Indonesia:3,2622906 2631912 2630667
+3,The Ohio State University,USA:3,2631674 2631672 2631673
+3,Tianjin Chengjian University,China:3,2631091 2626198 2613593
+3,Tianjin Medical University,China:3,2610102 2629259 2620782
+3,Tianjin University of Science and Technology,China:3,2622441 2602996 2624306
+3,UCASS,China:3,2618834 2627571 2614445
+3,university,China:3,2617888 2601757 2601758
+3,University,China:3,2616426 2601170 2611155
+3,University of Bristol,United Kingdom:2 China:1,2626247 2621337 2621430
+3,University of Emergency Management,China:3,2632526 2619512 2627913
+3,University of Hong Kong,Hong Kong (SAR) China:2 China:1,2632024 2626386 2631954
+3,University of Michigan,USA:3,2628483 2622881 2631664
+3,University of Waterloo,Canada:3,2618193 2628287 2631699
+3,Virginia Military Institute,USA:3,2622959 2622962 2622963
+3,Washington State University,USA:3,2631687 2631688 2631689
+3,Western Washington University,USA:3,2619572 2619570 2619571
+3,Wuchang Shouyi University,China:3,2603364 2601403 2603366
+3,Wuhan Donghu College,China:3,2608252 2608236 2628325
+3,Xi'an Kedagaoxin University,China:3,2614834 2617356 2622890
+3,Yancheng Institute of Technology,China:3,2630446 2613797 2629848
+3,Yancheng Teachers University,China:3,2632262 2617492 2607037
+3,Yanching Institute of Technology,China:3,2619019 2621114 2632681
+3,Zhejiang International Studies University,China:3,2600861 2600098 2600574
+3,Zhejiang University - University of Illinois,China:3,2621128 2609997 2607509
+3,Zhengzhou Uinversity of Aeronautic,China:3,2620930 2620899 2620928
+2,4 Year,China:2,2613606 2613605
+2,Adelaide University,Australia:2,2630299 2604237
+2,Adlai E. Stevenson High School,USA:2,2600413 2600414
+2,Albion College,USA:2,2632997 2633000
+2,Anhui Science and Technology University,China:2,2626805 2602772
+2,Anhui University of Science & Technology,China:2,2601133 2600887
+2,Anyang University,China:2,2624426 2620984
+2,Arizona State University,USA:1 China:1,2631660 2628031
+2,Beijing Sports University,China:2,2631525 2627850
+2,Beijing University of Chinese Medicine,China:2,2624637 2610164
+2,Bohai University,China:2,2626144 2629500
+2,Boston University,USA:2,2614598 2601990
+2,California Polytechnic State University,USA:2,2629987 2630027
+2,California State Polytechnic University,USA:2,2629919 2629921
+2,Carroll College,USA:2,2631530 2631524
+2,Central University of Finace and Economics,China:2,2619497 2626960
+2,China Jiliang University College of Modern,China:2,2625472 2624161
+2,China Medical University,China:2,2630444 2609575
+2,"China University of Geosciences,Wuhan",China:2,2620576 2630872
+2,China University of Mining and Technology-,China:2,2600724 2625509
+2,China University of Petroleum(Beijing),China:2,2603239 2632280
+2,Chinese University of Hong Kong,China:1 Hong Kong (SAR) China:1,2629811 2609273
+2,Chongqing University of Arts and Sciences,China:2,2601110 2630804
+2,Clarkson University,USA:2,2628414 2628402
+2,college,China:2,2602416 2609308
+2,"College of Sciences, Northeastern",China:2,2620323 2620056
+2,Concord University College Fujian Normal,China:2,2600393 2604506
+2,Creighton University,USA:2,2629879 2629882
+2,CUHK(SZ),China:2,2616312 2616967
+2,Dalian Jiaotong University,China:2,2617597 2616553
+2,Dalian University of Foreign Languages,China:2,2631869 2629989
+2,Eastern Washington University,USA:2,2626689 2626690
+2,Florida Polytechnic University,USA:2,2631680 2631679
+2,Guangdong Baiyun University,China:2,2621638 2608421
+2,Guangdong Pharmaceutical University,China:2,2623436 2628990
+2,Guangdong University of Education,China:2,2608927 2603730
+2,Guangxi University for Nationalities,China:2,2600275 2631527
+2,Hampton University,USA:2,2611786 2611787
+2,Harbin Huade University,China:2,2619201 2630159
+2,Harbin Normal University,China:2,2624179 2632321
+2,Harvard University,USA:2,2623114 2623105
+2,Hebei Vocational University of Technology,China:2,2602352 2602349
+2,Hefei City College,China:2,2603180 2623589
+2,Huainan Normal University,China:2,2626820 2616104
+2,Huaiyin Normal University,China:2,2600746 2617891
+2,Hulunbuir University,China:2,2630613 2611556
+2,Hunan University of Information,China:2,2617327 2617324
+2,Hunan University of Technology and,China:2,2621437 2629052
+2,Inner Mongolia Minzu University,China:2,2609631 2609604
+2,Inner Mongolia University of Science &,China:2,2601322 2617738
+2,International Campus Zhejiang University,China:2,2600614 2600490
+2,Jiangmen Polytechnic,China:2,2619857 2619865
+2,Jiangsu College of Tourism,China:2,2600535 2600537
+2,Jiangsu Ocean University,China:2,2628660 2624221
+2,Jiangxi Agricultural University,China:2,2609605 2631780
+2,Jiaxing Vocational & Technical College,China:2,2631710 2631709
+2,Jilin Agricultural University,China:2,2614416 2614480
+2,Jilin International Studies University,China:2,2620383 2631820
+2,JiLin University of Finance and Economics,China:2,2629047 2618902
+2,Jining Normal University,China:2,2632182 2604343
+2,Jining Polytechnic,China:2,2620498 2620327
+2,Jinshan College Of Fujian Agriculture And,China:2,2617796 2617818
+2,King's College London,United Kingdom:2,2622956 2604040
+2,Lake Erie College,USA:2,2632797 2632796
+2,Lan Zhou University,China:2,2625447 2622812
+2,Lanzhpu University of Technolgy,China:2,2619994 2620031
+2,Liaoning Institute of Science and,China:2,2605615 2629077
+2,Liaoning Normal University,China:2,2600394 2630928
+2,Liaoning Police College,China:2,2629007 2622692
+2,Linfield University,USA:2,2621339 2621338
+2,Longdong University,China:2,2619637 2630469
+2,Loyola University Maryland,USA:2,2622993 2631659
+2,Luzhou Vocational and Technical College,China:2,2626818 2615777
+2,McGill University,Canada:2,2600819 2613940
+2,Mianyang Teachers' College,China:2,2624824 2612332
+2,Monash University,China:2,2627283 2613210
+2,Nanfang College Guangzhou,China:2,2618606 2628935
+2,Naval Medical University,China:2,2603301 2605521
+2,NC School of Science and Mathematics,USA:2,2612697 2612698
+2,NCEPU,China:2,2614007 2620548
+2,NEU,China:2,2622370 2616155
+2,Ningxia Institute of Science and Technology,China:2,2625474 2627546
+2,Northeastern University (Shenyang),China:2,2621792 2617714
+2,Northeastern University of China,China:2,2621873 2617174
+2,Northeastern University(Shenyang),China:2,2610354 2622973
+2,Northeastern University-China,China:2,2616619 2616661
+2,NortheasternUniversity,China:2,2615507 2618989
+2,Purdue University,USA:2,2609963 2600009
+2,Qingdao Agricultural University,China:2,2600338 2613858
+2,Qiongtai Normal University,China:2,2601515 2601517
+2,Renmin University of China Suzhou,China:2,2611563 2629391
+2,Rye Country Day School,USA:2,2613792 2631595
+2,"School of Mathematics and Physics, North",China:2,2612428 2604012
+2,Shandong First Medical University,China:2,2614346 2627161
+2,Shandong University (Weihai),China:2,2627587 2632082
+2,"Shandong University,Weihai",China:2,2601364 2604361
+2,Shanghai Jiao Tong University Global,China:2,2600958 2604740
+2,Shanghai University of Traditional Chinese,China:2,2600305 2627921
+2,Shangqiu Polytechnic,China:2,2613221 2613202
+2,Shanxi Agricultural University,China:2,2620872 2632647
+2,Shaoyang University,China:2,2610635 2612480
+2,Shenyang University,China:2,2603266 2620349
+2,Sichuan University Jinjiang College,China:2,2625513 2625503
+2,Sichuan Vocational and Technical College,China:2,2604157 2607507
+2,Sonoma State University,USA:2,2631670 2631675
+2,Southern Connecticut State University,USA:2,2633026 2633027
+2,Southern New Hampshire University,USA:2,2631309 2632821
+2,Southwest Forestry University,China:2,2608269 2616263
+2,Southwest University of Science and,China:2,2620644 2602043
+2,St. John Fisher University,USA:2,2621328 2621329
+2,Stellenbosch University,South Africa:2,2629212 2629203
+2,Sun-Yatsen University,China:2,2632968 2618894
+2,SUSTech,China:2,2622654 2631726
+2,Suzhou university,China:2,2618023 2620911
+2,Tangshan Normal University,China:2,2603840 2603762
+2,Technology&Media University of Henan,China:2,2625562 2632612
+2,The HongKong Polytechnic University,China:1 Hong Kong (SAR) China:1,2611648 2631474
+2,The Nueva School,USA:2,2631663 2631666
+2,The Ocean University of China,China:2,2632438 2626396
+2,"The State University of New York, Korea",South Korea:2,2607662 2608066
+2,The University of Manchester,China:1 United Kingdom:1,2601988 2603253
+2,Thomas Jefferson High School for Science,USA:2,2633022 2633025
+2,"Tianjin University, Tianjin, China",China:2,2603392 2616212
+2,Tianjing University,China:2,2624518 2631200
+2,Truman State University,USA:2,2629895 2629894
+2,universidad autónoma de Yucatán,Mexico:2,2628474 2628476
+2,Universitas Andalas,Indonesia:2,2618657 2618666
+2,Universitas Pelita Harapan,Indonesia:2,2630258 2630297
+2,"University of California, Irvine",USA:2,2619577 2601573
+2,"University of California, Riverside",USA:2,2633039 2633037
+2,"University of California, Santa Barbara",USA:2,2616736 2622253
+2,University of Colorado Denver,USA:1 China:1,2600873 2609080
+2,University of Melbourne,Australia:2,2602716 2604533
+2,"University of Minnesota, Twin Cities",USA:2,2631684 2631682
+2,University of North Carolina at Chapel Hill,USA:2,2613823 2628490
+2,University of Oxford,United Kingdom:1 China:1,2601258 2631622
+2,University of Southern California,USA:2,2600075 2631700
+2,University of Washington,USA:2,2621341 2604958
+2,University of Washington Tacoma,USA:2,2614591 2618122
+2,Wenzhou Kean University,China:2,2608425 2611460
+2,Wisconsin Lutheran College,USA:2,2632873 2632867
+2,Wuhan Donghu University,China:2,2607658 2608844
+2,XI'AN University of Posts,China:2,2613779 2615170
+2,Xian Aeronautical Polytechnic Institute,China:2,2632263 2632241
+2,Xian Jiaotong University,China:2,2622462 2621748
+2,XIDIANUNIVERSITY,China:2,2622524 2623742
+2,Xinjiang University of Technology,China:2,2603477 2609267
+2,Xi’an University of Science and Technology,China:2,2611197 2623492
+2,XuHai College of China University of Mining,China:2,2611545 2610655
+2,"Xuhai College,China University of Mining",China:2,2613267 2624240
+2,Yulin University,China:2,2630559 2630577
+2,Yunnan Minzu University,China:2,2610315 2610679
+2,Zhejiang Agricultural and Forestry,China:2,2622648 2624815
+2,Zhejiang Institute of Communications,China:2,2619327 2621759
+2,Zhengzhou University of Aeronautics,China:2,2609424 2620820
+2,Zhicheng College of Fuzhou University,China:2,2632880 2624429
+2,"Zhujiang College, South China Agricultural",China:2,2630962 2631393
+2,ZJU,China:2,2610519 2624272
+1,( ),China:1,2604193
+1,(SUN YAT-SEN UNIVERSITY),China:1,2621886
+1,Aberdeen Institute of Data Science and,China:1,2600435
+1,Affiliated School of Kunming NSAU,China:1,2626766
+1,AHJZU&XUPT&HDU,China:1,2613395
+1,Air Force Medical University,China:1,2629508
+1,Al-Farabi Kazakh National University,Kazakhstan:1,2631570
+1,American Heritage School Palm Beach,USA:1,2632154
+1,Anhui Agricultural University,China:1,2619954
+1,Anhui Medical University,China:1,2632030
+1,Anhui Sanlian University,China:1,2632073
+1,Anqing Normal University (AQNU),China:1,2610256
+1,Anyang Normal University,China:1,2601591
+1,Applied Technology College of Soochow,China:1,2612734
+1,Arcadia University,USA:1,2612705
+1,Auhui University,China:1,2622801
+1,Baltimore Polytechnic Institute,USA:1,2617994
+1,Behang University,China:1,2620894
+1,Bei Hang University,China:1,2617693
+1,Beibu Gulf University,China:1,2614473
+1,Beihang,China:1,2632749
+1,Beihang University&China University of,China:1,2632914
+1,Beiing University of Aeronautics and,China:1,2624327
+1,Beijing Information Science&Technology,China:1,2621680
+1,Beijing Insititute of Technology,China:1,2602262
+1,Beijing Institude of Technology,China:1,2606246
+1,Beijing Institute of Technology&Shantou,China:1,2627988
+1,"BEIJING institute of technology, zhuhai",China:1,2624301
+1,"Beijing Institute of Technology,Zhuhai",China:1,2613794
+1,Beijing International Studies University,China:1,2601010
+1,"Beijing Jiaotong University, Weihai",China:1,2611462
+1,Beijing New Talent Academy,China:1,2605608
+1,Beijing No. 4 High School,China:1,2628223
+1,Beijing Nomal University,China:1,2601180
+1,Beijing Normal Univerity,China:1,2624690
+1,Beijing Normal University (BNU),China:1,2622130
+1,Beijing Normal University (Zhuhai),China:1,2603018
+1,Beijing Normal University an Zhuhai,China:1,2617695
+1,Beijing Normal University in Zhuhai,China:1,2607130
+1,Beijing Normal University Zhuhai Campus,China:1,2607150
+1,"Beijing Normal University, Zhuhai Campus",China:1,2607738
+1,Beijing Normal–Hong Kong Baptist,China:1,2607919
+1,Beijing Royal School,China:1,2632852
+1,Beijing Sport Univercity,China:1,2608444
+1,Beijing sports university,China:1,2611694
+1,Beijing university,China:1,2625609
+1,Beijing University Of Agriculture,China:1,2619716
+1,Beijing University Of Posts,China:1,2620610
+1,Beijing University of Tecnology,China:1,2631905
+1,Beijing University of th Post and,China:1,2624502
+1,Beijing Vocational College of Labor and,China:1,2627933
+1,Bejing Normal University,China:1,2620534
+1,bejing university of Techonlogy,China:1,2623661
+1,BJFU University,China:1,2628467
+1,BJUT,China:1,2626599
+1,BMCA,China:1,2600021
+1,Brandeis University,USA:1,2629911
+1,Brigham Young University - Idaho,USA:1,2629923
+1,BTHS,USA:1,2632856
+1,BUAA,China:1,2607174
+1,Bucknell University,USA:1,2633028
+1,Budapest University of Technology and,Hungary:1,2631111
+1,BUPT,China:1,2616339
+1,bupt,China:1,2632850
+1,California Institute of Technology,USA:1,2628489
+1,"California Polytechnic State University, San",USA:1,2618521
+1,Capital University of Economic and,China:1,2612538
+1,capital university of economic and business,China:1,2601729
+1,Capital University of Economics and Busine,China:1,2616024
+1,Carnegie Mellon University,USA:1,2609999
+1,Case Western Reserve University,USA:1,2619260
+1,cauc,China:1,2630634
+1,CCIBE,China:1,2605403
+1,CEFET-MG (Centro Federal de Educação,Brazil:1,2616739
+1,Center South University,China:1,2611454
+1,Central South Univeisity,China:1,2616959
+1,Central South Univercity,China:1,2624611
+1,Central South Univerdity,China:1,2624890
+1,Central Univereity of Finance and,China:1,2629705
+1,Central University of Finance and Ecnomics,China:1,2618107
+1,Central University of Financeand,China:1,2616204
+1,Central University of Financial and,China:1,2631797
+1,CentralSouth University,China:1,2630390
+1,Centrol South University,China:1,2600646
+1,Changchun Institute of Technology,China:1,2601398
+1,Changchun University of Architecture and,China:1,2605664
+1,Changchun University of Techonolgy,China:1,2602534
+1,ChangChunNormalUniversity,China:1,2622322
+1,Changji University,China:1,2611575
+1,Changsha Rail Transit Institute,China:1,2617330
+1,Changzhi College,China:1,2614960
+1,Chang’an University,China:1,2605382
+1,Chendu University of information,China:1,2603452
+1,Chendu University of Information,China:1,2603488
+1,Chengdu Jincheng College,China:1,2607026
+1,Chengdu No. 7 High School,China:1,2616125
+1,Chengdu Normal University,China:1,2613351
+1,Chengdu Polytechnic,China:1,2610624
+1,Chengdu Univercity of Information,China:1,2603418
+1,Chengdu Vocational University of the Arts,China:1,2603999
+1,China Academy of Machinery Science and,China:1,2630496
+1,China Jiliang University Modern Science,China:1,2628833
+1,China Nanchang University,China:1,2615799
+1,China People's Police University,China:1,2620794
+1,"China Pharmaceutical University,Jiangning",China:1,2619426
+1,China University if Geoscience,China:1,2629028
+1,China University of Geoscience,China:1,2614198
+1,China university of Geoscience,China:1,2620802
+1,China University of Geoscience Beijing,China:1,2629161
+1,China University of Geoscience(Beijing),China:1,2622335
+1,China University of Geosciences(Beijing,China:1,2614808
+1,China University of Geosciences(Wu han),China:1,2603691
+1,China University of Geosciences(Wuhan),China:1,2629232
+1,"China University of Geosciences,Beijing",China:1,2616443
+1,China University of Labor Relations,China:1,2608434
+1,China University of Mining & Technology,China:1,2623671
+1,China University of Mining & Technology-,China:1,2629333
+1,CHINA UNIVERSITY OF MINING AND,China:1,2601500
+1,"China University of Petroleum (Beijing),",China:1,2623524
+1,China University of Petroleum - Beijing at,China:1,2631813
+1,China University Of Petroleum -Beijing at,China:1,2617065
+1,China University of Petroleum Beijing),China:1,2625712
+1,CHINA UNIVERSITY OF PETROLEUM-,China:1,2613760
+1,China West Normal University,China:1,2619958
+1,"Chinese University of Hongkong, Shenzhen",China:1,2615859
+1,"Chinese University of HongKong, Shenzhen",China:1,2600025
+1,Chong Qing University,China:1,2601562
+1,Chong qing Yongchuan BeiShan High,China:1,2625798
+1,Chongqin University,China:1,2615904
+1,Chongqing Aerospace Polytechnic,China:1,2617258
+1,Chongqing Electric Power College,China:1,2610373
+1,Chongqing Polytechnic University of,China:1,2603905
+1,Chongqing University of Education,China:1,2601089
+1,Chongqing University of Posts amd,China:1,2601293
+1,Chongqing University of Urban Science and,China:1,2603749
+1,Chongqing Vocational University of,China:1,2605789
+1,Chongqing Yongchuan Beishan Middle,China:1,2624608
+1,Chongqing Yongchuan District Beishan,China:1,2631002
+1,City College of XTan Jiaotong University,China:1,2628745
+1,City University of Hong Kong (Dongguan),China:1,2622005
+1,City University of HONGKONG (Dongguan),China:1,2617932
+1,Civil Aviation universities of China,China:1,2614360
+1,Civil Aviation University,China:1,2601697
+1,Colegio Arena,Brazil:1,2615568
+1,College of Arts and Information,China:1,2628575
+1,"College of Humanities and Information,",China:1,2612094
+1,College of Information Engineering and,China:1,2612059
+1,College of Information Science and,China:1,2629000
+1,Colorado College,USA:1,2631665
+1,Communication Univercity of China,China:1,2612586
+1,COMMUNICATION UNIVERSITY OF,China:1,2628694
+1,Computer,China:1,2632220
+1,CUHK Shenzhen,China:1,2604556
+1,CUHKSZ,China:1,2603690
+1,Dali university,China:1,2600008
+1,Dalian jiaotong university,China:1,2627543
+1,Dalian Medical University,China:1,2618565
+1,Dalian No.20 Senior Middle School,China:1,2626378
+1,Dalian University of Technology Panjin,China:1,2617787
+1,De Anza College,USA:1,2623741
+1,DE ANZA COLLEGE,USA:1,2628759
+1,Deyang College of Urban Rail Transit,China:1,2623486
+1,DONG BEI UNIVERSITY,China:1,2621050
+1,Dundee International Institution of Central,China:1,2603533
+1,East China Normal University & Yunnan,China:1,2600700
+1,East China Normal Universty,China:1,2630453
+1,East Normal China University,China:1,2601118
+1,East University of Heilongjiang,China:1,2619797
+1,Eastern Kentucky University,USA:1,2629905
+1,Eastern Michigan University,USA:1,2622927
+1,Eastside Preparatory School,USA:1,2630319
+1,Eindhoven university of technology,Netherlands:1,2603380
+1,Electronic and Information Engineering,China:1,2622363
+1,Engineering University of PAP,China:1,2608381
+1,FJUT,China:1,2628803
+1,Florida Institute of Technology,USA:1,2631656
+1,FOSHAN POLYTECHNIC,China:1,2627028
+1,Fu Zhou university,China:1,2629238
+1,"Fudan University, China",China:1,2609599
+1,Fuzhou Institute of Technology,China:1,2630202
+1,Fuzhou University of Intemational studies,China:1,2610439
+1,Fuzhou University Zhicheng College&Qufu,China:1,2612423
+1,FuzhouUniveristy,China:1,2624461
+1,FuZhouUniversityZhiChengCollege,China:1,2629675
+1,Gannan University of Science and,China:1,2629521
+1,Gansu Finance and Trade Vocational,China:1,2625816
+1,Gansu University of Chinese Medicine,China:1,2613265
+1,Ganzhou Polytechnic,China:1,2627790
+1,GDUFS,China:1,2625776
+1,Gezhi High School Shanghai,China:1,2625872
+1,"Glasgow College Hainan, University of",China:1,2611735
+1,"Glasgow College Hainan,UESTC",China:1,2602754
+1,Gongqing College of Nanchang University,China:1,2627325
+1,Grand View University,USA:1,2631706
+1,Green Level High School,USA:1,2628458
+1,guang dong finance university,China:1,2629850
+1,Guang Dong Peizheng College,China:1,2616974
+1,Guangdong Industry Polytechnic,China:1,2631516
+1,Guangdong Mechanical & Electrical,China:1,2626085
+1,Guangdong Medical University,China:1,2626115
+1,Guangdong Pei Zheng College,China:1,2616854
+1,Guangdong Police College,China:1,2632463
+1,Guangdong Technion - Israel Institute of,China:1,2600041
+1,Guangdong Technion-Israel Institute of,China:1,2601473
+1,Guangxi Police College,China:1,2603954
+1,Guangxi Science & Technology Normal,China:1,2614130
+1,Guangxi University of Chinese Medicine,China:1,2600082
+1,Guangxi University of Finance and,China:1,2600186
+1,Guangxi University of Foreign Languages,China:1,2628304
+1,Guangxi University of Science and,China:1,2621574
+1,Guangxi Vocational Institute Of Technology,China:1,2629855
+1,Guangzhou City Polytechnic,China:1,2629248
+1,Guangzhou Civil Aviation College,China:1,2616540
+1,Guangzhou Medical University,China:1,2612128
+1,Guangzhou Railway Vocational and,China:1,2616217
+1,Guangzhou Suyuan School,China:1,2632308
+1,Guangzhou Vocational University of,China:1,2631470
+1,Guangzhou Xinhua University,China:1,2622632
+1,Guangzhouhualixueyuan,China:1,2627143
+1,Guilin institute of information technology,China:1,2623400
+1,Guilin Institute of Information Technology,China:1,2623344
+1,Guizhou University of Commerce,China:1,2609824
+1,GXMZU,China:1,2609715
+1,GZHU&CSU&ZJU,China:1,2603908
+1,Handan University,China:1,2616837
+1,Harbin Far East University of Science and,China:1,2600091
+1,Harbin Finance University,China:1,2611944
+1,Harbin Guangsha College,China:1,2627978
+1,"Harbin Insititute of Technology,Shenzhen",China:1,2621634
+1,Harbin Institude of Technology,China:1,2629431
+1,Harbin Institude of Technology Shenzhen,China:1,2621624
+1,"Harbin Institude of Technology, Shenzhen",China:1,2611073
+1,Harbin Institute of Information Technology,China:1,2610121
+1,Harbin Institute of Technology (Shenzhen),China:1,2621579
+1,Harbin Institute of Technology (weihai),China:1,2600294
+1,Harbin Institute of Technology(Shenzhen),China:1,2611009
+1,"HARBIN INSTITUTE OF TECHNOLOGY,",China:1,2621589
+1,"Harbin Institute ofTechnology,Shenzhen",China:1,2625695
+1,Harbin institution of technology,China:1,2603212
+1,Harbin Institution of Technology,China:1,2603619
+1,Harbin Institution of Technology Shenzhen,China:1,2629479
+1,HarbinInstitute of Technology,China:1,2601968
+1,"HarbinInstitute of Technology, Weihai",China:1,2610151
+1,Hasanuddin University,Indonesia:1,2618667
+1,HBUE UNIVERSITY OF ECONOMICS,China:1,2612283
+1,HBUEI UNIVERSITY OF ECONOMICS,China:1,2612269
+1,He Fei University of Technology,China:1,2631186
+1,He'nan Normal University,China:1,2608517
+1,Hebei Agricultural University,China:1,2611093
+1,Hebei Normal University,China:1,2602663
+1,Hebei University of Architecture,China:1,2616720
+1,Hebei University Of Engineering,China:1,2608597
+1,Hebei University of Finance,China:1,2629003
+1,Hebei University of Technology & LUT,China:1,2616494
+1,Hebei University of Technology(Beichen,China:1,2604522
+1,Hebei University of Technology; LUT,China:1,2616743
+1,Hebei University of Water Resources and,China:1,2628324
+1,HeFei Normal University,China:1,2620549
+1,Hefei Science and Technology College,China:1,2615785
+1,Hefei University Of Technology Xuancheng,China:1,2629370
+1,Hefei University of Technology Xuancheng,China:1,2629240
+1,Hehai University,China:1,2605265
+1,Heifei University of Technology,China:1,2607585
+1,Heihe University,China:1,2603684
+1,Heilongjiang Institute of Technology,China:1,2600162
+1,Heilongjiang University of Chinese Medicine,China:1,2627418
+1,Heilongjiang University of Finance and,China:1,2605855
+1,Heilongjiang University of Science,China:1,2606926
+1,Heilongjiang University Of Science &,China:1,2630829
+1,Henan Agricultural University,China:1,2630711
+1,Henan Kaifeng College of Science,China:1,2606922
+1,Henan Normal Universtiy,China:1,2628714
+1,Hendrix College,USA:1,2623397
+1,Henu University,China:1,2626211
+1,Herbin Engineering University,China:1,2627961
+1,Heriot-Watt University Malaysia,Malaysia:1,2617354
+1,HFUU,China:1,2610133
+1,HKUST-GZ,China:1,2631996
+1,Hong Kong PolyU,Hong Kong (SAR) China:1,2609900
+1,HongKong Education University,China:1,2632942
+1,Hope College of Southwest Jiaotong,China:1,2616616
+1,Huanghuai University,China:1,2624786
+1,Huangzhong University of Science and,China:1,2628663
+1,Huazhong Universityof Science and,China:1,2607567
+1,Hubei Normal University,China:1,2601018
+1,Hubei University of Economic,China:1,2612272
+1,Hubei University of Education,China:1,2606220
+1,Hubei University of Science and,China:1,2632908
+1,huhai,China:1,2622629
+1,Hui Hua College of Hebei Normal University,China:1,2603966
+1,Hunan agricultral university,China:1,2617918
+1,Hunan Agriculture University,China:1,2612489
+1,Hunan Chemical Vocational Technology,China:1,2610161
+1,Hunan First Normol University,China:1,2619720
+1,Hunan Institution of Science and,China:1,2614886
+1,"Hunan University of Humanities, Science",China:1,2618336
+1,HUST,China:1,2623542
+1,Huzhou University,China:1,2630466
+1,ianjin University of Science and Technology,China:1,2630793
+1,In Mongolian Normal University,China:1,2606736
+1,Indiana University South Bend,USA:1,2606346
+1,Information Engineer University,China:1,2626253
+1,INNER MONGOLIA MINZU UNIVERSITY,China:1,2609615
+1,Inner Mongolia University of Finance and,China:1,2607715
+1,Inner Mongolia University of Science and,China:1,2603489
+1,Inner Mongoliar Normal University,China:1,2627307
+1,Institut Teknologi Sepuluh Nopember,Indonesia:1,2618609
+1,"Institute of Seismology, China Earthquake",China:1,2615148
+1,Iolani School,USA:1,2628497
+1,Jiangsu Normal University KeWen College,China:1,2632960
+1,JiangSu Normal University QuanShan,China:1,2632302
+1,JiangsuOceanUniversity,China:1,2601872
+1,JiangSUUniversity,China:1,2625550
+1,Jiangxi Hongzhou Vocational College,China:1,2619604
+1,Jiangxi New Energy Technology Institute,China:1,2603869
+1,"Jiangxi Normal University, Nanchang, China",China:1,2609257
+1,Jiangxi Science and Technology Normal,China:1,2629694
+1,Jiangxi Teachers College,China:1,2623457
+1,Jiangxi University of Engineering,China:1,2603379
+1,Jiangxi University of Traditional Chinese,China:1,2614258
+1,Jiangxi University of Water Resources and,China:1,2600256
+1,Jiaxing Nanhu University,China:1,2621450
+1,Jilin Engineering Normal University,China:1,2606385
+1,Jilin Univeristy,China:1,2608618
+1,Jilin University of Chemical Technology,China:1,2608641
+1,Jinan University – University of Birmingham,China:1,2618500
+1,Jinggangshan University,China:1,2632763
+1,Jining University,China:1,2628880
+1,JinLing Insititute of Technology,China:1,2620057
+1,Jiujiang Institute of Technology,China:1,2604741
+1,Karamay Vocational and Technical College,China:1,2622421
+1,Kean University,USA:1,2625446
+1,Kenyon College,USA:1,2632988
+1,Keyi College of Zhejiang Sci-Tech,China:1,2601594
+1,Kunming University,China:1,2601897
+1,La Trobe University,Australia:1,2628636
+1,Lancaster University,United Kingdom:1,2628439
+1,Lanzhou City University,China:1,2600012
+1,Lanzhou Institute of Technology,China:1,2629204
+1,Lanzhou University (China),China:1,2625797
+1,Law & Business College of Hubei University,China:1,2621243
+1,Lewis & Clark College,USA:1,2633001
+1,Lianyungang Technical College,China:1,2602911
+1,Liaoning Railway Vocational and Technical,China:1,2601352
+1,Liaoning Technical Univeersity,China:1,2631333
+1,Liaoning Univerisity,China:1,2608664
+1,Liaoning University of Engineering and,China:1,2613280
+1,Liaoning University of International,China:1,2610711
+1,Liaoning University of Science and,China:1,2600816
+1,Liaoning university of science and,China:1,2603246
+1,Liaoning University of Technology,China:1,2632069
+1,LiaoNingUniversity,China:1,2609371
+1,Lingnan Normal Universwity,China:1,2613691
+1,Lingnan University,Hong Kong (SAR) China:1,2623892
+1,LNU(Liaoning University),China:1,2615108
+1,Longwood Senior High School,USA:1,2633029
+1,LUT University,Finland:1,2631667
+1,Lycée Jean Baptiste Say,France:1,2629917
+1,Lyuliang University,China:1,2603983
+1,Lznzhou University,China:1,2604271
+1,Macao Polytechnic University,China:1,2627740
+1,Mahindra University,India:1,2622790
+1,master,China:1,2624700
+1,Mathematics and Applied Mathematics,China:1,2602768
+1,McMaster University,Canada:1,2621400
+1,Meredith College,USA:1,2622995
+1,Miami University (Ohio),USA:1,2632903
+1,MianYang Teacher's College,China:1,2626308
+1,MianYangTeacher'College,China:1,2619415
+1,MianyangTeachers'College,China:1,2631827
+1,Mohamed bin Zayed University of Artificial,Canada:1,2618087
+1,Montverde Academy,USA:1,2623449
+1,Mt. San Antonio College,USA:1,2610172
+1,Mudanjiang University,China:1,2606256
+1,Nan Chang Hangkong University,China:1,2632929
+1,Nan Jing Normal University,China:1,2623553
+1,Nan Kai University,China:1,2631440
+1,Nanchang Business College of Jiangxi,China:1,2603795
+1,Nanchang instituter and information,China:1,2622206
+1,Nanchang JiaoTong Institute,China:1,2602993
+1,NangChang University,China:1,2623798
+1,Nangjing University,China:1,2632509
+1,Nanjing Aqricultural University,China:1,2601909
+1,Nanjing Audit University Jinshen College,China:1,2602774
+1,Nanjing Foreign Language School,China:1,2629276
+1,NanJing Forestry Universitty,China:1,2621172
+1,Nanjing Hydraulic Research Institute,China:1,2628060
+1,Nanjing Institude of Technology,China:1,2623804
+1,Nanjing Tech University Pujiang Institute,China:1,2610131
+1,Nanjing Univeristy,China:1,2626097
+1,Nanjing University of Industry Technology,China:1,2604575
+1,Nanjing Vocational College of Information,China:1,2619313
+1,Nanjing Vocational Institute of Railway,China:1,2607444
+1,Nanjing Vocational University of Industry,China:1,2611204
+1,NanjingAviationAerospace University,China:1,2618868
+1,nankai,China:1,2628374
+1,Nankai,China:1,2632209
+1,"Nankai University,Tianjin,China",China:1,2604005
+1,Nankai unversity,China:1,2628640
+1,NankaiUniversity,China:1,2611141
+1,Nanning University,China:1,2608820
+1,Nantong University Xinglin College,China:1,2626945
+1,Nation University of Defense Technology,China:1,2624850
+1,National Institute of Metrology,China:1,2632674
+1,Nazarbayev Intellectual School of Science,Kazakhstan:1,2632995
+1,Neusoft lnstitude Guangdong,China:1,2603817
+1,Ningbo Nottingham University,China:1,2629378
+1,Ningde Normal University,China:1,2623510
+1,Ningxia institute of Technology,China:1,2619409
+1,NKU,China:1,2630259
+1,North Carolina State University,USA:1,2632915
+1,North China Electric Power University Bao,China:1,2630786
+1,"North China Electric Power University,",China:1,2606735
+1,North China Electric Power Unversity,China:1,2627585
+1,North China Institute of Aerospace,China:1,2628937
+1,North East Electric Power University,China:1,2613233
+1,North East University,China:1,2618264
+1,North Minzu University&Lingnan Normal,China:1,2621214
+1,North-eastern University,China:1,2626024
+1,Northeast Agriculture University,China:1,2626797
+1,Northeast Electric Power Univercity,China:1,2620169
+1,Northeast Nomal University,China:1,2629354
+1,Northeast University,China:1,2619675
+1,Northeast University (China),China:1,2615196
+1,"Northeast University, China",China:1,2619950
+1,Northeasten University,China:1,2614823
+1,Northeasten university,China:1,2616141
+1,Northeastern Normal University,China:1,2630382
+1,Northeastern Univercity(CN),China:1,2620371
+1,Northeastern Univerdity,China:1,2615816
+1,"Northeastern University (Shenyang, China)",China:1,2615243
+1,Northeastern University Faculty of Science,China:1,2617554
+1,Northeastern University Shenyang,China:1,2619479
+1,"Northeastern University Shenyang, China",China:1,2615335
+1,Northeastern University(CN,China:1,2608801
+1,"Northeastern University(Shenyang,P.R.",China:1,2620130
+1,"Northeastern university,China",China:1,2618815
+1,"Northeastern University,China",China:1,2618223
+1,Northern Arizona,USA:1,2629908
+1,Northern University,China:1,2617983
+1,Northwest Agriculture and Forestry,China:1,2614434
+1,Northwest Minzu University,China:1,2600968
+1,Northwest University(Xi'an China),China:1,2611521
+1,"Northwest university, China",China:1,2607339
+1,NorthwestA&FUniversity,China:1,2603028
+1,Northwestern Polytechincal University,China:1,2610174
+1,NPU,China:1,2627745
+1,NYU means New York University,China:1,2632598
+1,NYU Shanghai,Vietnam:1,2628194
+1,Ocean Univercity of China,China:1,2601828
+1,Ocean Univeristy of China,China:1,2627756
+1,Ocean University of China OUC,China:1,2619766
+1,Oregon State University,USA:1,2631717
+1,outhwestern University of Finance and,China:1,2619067
+1,Panjin Campus of Dalian University of,China:1,2631851
+1,Panzhihua Universityc,China:1,2609686
+1,Peking Union Medical College,China:1,2623847
+1,People‘s public security university of China,China:1,2624286
+1,People‘s Public Security University of China,China:1,2621210
+1,personal institution,China:1,2604213
+1,Petra Christian University,Indonesia:1,2620123
+1,Pinetree Secondary,Canada:1,2632070
+1,Pioneer Charter School of Science II,USA:1,2633021
+1,"Pioneer College,Inner Mongolia University",China:1,2603219
+1,Qilu Medical University,China:1,2602851
+1,Qilu University,China:1,2626105
+1,"QILU UNIVERSITY OF TECHNOLOGY ,",China:1,2618409
+1,QINDAO UNIVERSITY OF TECHNOLOGY,China:1,2629693
+1,Qing Hai University,China:1,2616014
+1,Qingdao City Univercity,China:1,2616980
+1,Qingdao University Central South,China:1,2601595
+1,qinghai univesity,China:1,2624235
+1,Qinhuangdao Branch of Northeastern,China:1,2611783
+1,Qiqihar University,China:1,2632601
+1,QMUL-BUPT,China:1,2608596
+1,Queen's University,Canada:1,2601385
+1,Rajshahi University of Engineering &,Bangladesh:1,2600627
+1,Ren Min University of China,China:1,2607704
+1,Renmin Univercity of China,China:1,2604502
+1,Renmin University,China:1,2628740
+1,"Renmin University of China,Zhongguancun",China:1,2611348
+1,Renming University of China,China:1,2629148
+1,Research Institute,China:1,2619118
+1,Rowan College South Jersey,USA:1,2602680
+1,RUC,China:1,2617180
+1,RWTH-Aachen University,China:1,2603736
+1,Sacred Heart University,USA:1,2601610
+1,Sanya University,China:1,2606642
+1,"School of Ecology, Sun Yat-sen University",China:1,2625615
+1,"School of Management,Fudan University",China:1,2627413
+1,"School of Mathematic and Statistics,Wuhan",China:1,2617989
+1,"School of Mathematical Sciences, Xiamen",China:1,2602938
+1,"School of Mathematical Sciences,Anhui",China:1,2626703
+1,"School of Mathmatics and Statistics, Wuhan",China:1,2612030
+1,School of Opening Learning and Education,China:1,2621020
+1,School of Remote Sensing and Information,China:1,2610320
+1,"School of Statistics and Computer,Capital",China:1,2629291
+1,"School of Statistics, Capital University of",China:1,2613801
+1,"School of Statistics, Renmin University of",China:1,2615897
+1,SDUFE,China:1,2614972
+1,Shaanxi Fashion Engineering University,China:1,2607942
+1,Shaanxi Polytechnic university,China:1,2628896
+1,Shaanxi Polytechnic University,China:1,2628980
+1,Shaanxi University of Science &Technology,China:1,2612445
+1,Shan Dong University of technology,China:1,2615754
+1,Shandong Agriculture University,China:1,2632573
+1,SHANDONG JIAOTONG UNIVERSITY,China:1,2623844
+1,Shandong Management University,China:1,2632905
+1,Shandong Polytechnic,China:1,2622412
+1,Shandong Uninversity,China:1,2610630
+1,Shandong univeristy,China:1,2632388
+1,Shandong University of Finance and Econo,China:1,2610474
+1,Shandong University of Traditional Chinese,China:1,2602826
+1,"SHANDONG UNIVERSITY, WEIHAI",China:1,2619678
+1,"Shandong University,Qingdao",China:1,2630131
+1,ShanDong Universty of Science and,China:1,2630210
+1,Shandong Vocational Institute of Fashion,China:1,2607733
+1,Shandong Yingcai Unversity,China:1,2630513
+1,SHANDONGJIAOTONG UNIVERSITY,China:1,2632843
+1,Shanghai Business School,China:1,2602569
+1,Shanghai Communications Polytechnic,China:1,2630808
+1,Shanghai Dianji University,China:1,2610325
+1,Shanghai DianJi University,China:1,2602571
+1,Shanghai Foreign Language School,China:1,2606708
+1,Shanghai International Study University,China:1,2616453
+1,Shanghai JaoTong University,China:1,2630533
+1,Shanghai Jianqiao University,China:1,2631353
+1,Shanghai Jiao Tong School,China:1,2602473
+1,Shanghai Jiao Tong Univers,China:1,2632517
+1,Shanghai Jiao Tong Univrsity,China:1,2603552
+1,Shanghai JiaoTongUniversity,China:1,2601989
+1,Shanghai Normal University TIANHUA,China:1,2630512
+1,Shanghai Normal University Tianhua,China:1,2632910
+1,Shanghai Pinghe School,China:1,2614504
+1,Shanghai Starriver Bilingual School,China:1,2604636
+1,Shanghai Tech University,China:1,2629136
+1,Shanghai University Of Engineering,China:1,2603550
+1,Shanghai University of Finance&Economics,China:1,2609520
+1,Shanghai Wuai Senior High School,China:1,2626384
+1,ShanghaiJiaoTongUniversity,China:1,2624609
+1,ShanghaiTech,China:1,2614026
+1,Shantou Univeisity,China:1,2602839
+1,Shanxi General Aviation Vocational and,China:1,2606247
+1,Shanxi Institute Science and Technology,China:1,2602102
+1,Shanxi Jinzhong Institute of Technology,China:1,2628183
+1,Shanxi Medical University,China:1,2614817
+1,Shanxi University of Science and,China:1,2605409
+1,"Shanxi University, School of Electric Power,",China:1,2611186
+1,Shanxi Vocational University of Engineering,China:1,2622804
+1,Shanyang University of Technology,China:1,2617020
+1,Shenyang Areospace university,China:1,2631891
+1,Shenyang Institute of Engineering,China:1,2619790
+1,Shenyang Ligong University,China:1,2626804
+1,Shenyang Pharmaceutial University,China:1,2621485
+1,Shenyang University of Technoligy,China:1,2612395
+1,"Shenzhen MSU-BIT University, Longgang",China:1,2605094
+1,"Shenzhen MSU-BIT University,Longgang",China:1,2615421
+1,Shenzhen MSU_BIT University,China:1,2603788
+1,SHENZHEN NANSHAN FOREIGN,China:1,2632552
+1,Shenzhen Unversity of Information,China:1,2616333
+1,Shihezi Univesity,China:1,2602324
+1,Shijiazhuang Tiedao University Sifang,China:1,2632467
+1,Shijiazhuang University,China:1,2617160
+1,ShijiazhuangTiedao University,China:1,2614160
+1,shnaghai university,China:1,2603503
+1,Si Chuan University,China:1,2630148
+1,Sichuan Academy of Social Sciences,China:1,2632864
+1,Sichuan Agriculture University,China:1,2626112
+1,Sichuan University - Pittsburgh Institute,China:1,2611992
+1,Sichuan University Pittsburgh Institution,China:1,2631556
+1,Sichuan University(SCU),China:1,2601856
+1,Singapore Institute of Management,China:1,2631425
+1,Singapore institution of management,China:1,2632362
+1,SMBU,China:1,2610717
+1,Sochow University,China:1,2614083
+1,Software Engineering Institute of,China:1,2632961
+1,Soochow Univercity,China:1,2606702
+1,Sorbonne University,France:1,2630442
+1,South China Agricutural University,China:1,2602773
+1,South China Normal Univerisity,China:1,2600725
+1,South China Normal University(Nanhai,China:1,2603714
+1,South China Normal Unviersity,China:1,2608852
+1,South China of Technology,China:1,2604675
+1,South China Univeristy of Technology,China:1,2606748
+1,South China University of,China:1,2618163
+1,South China University of Technology &,China:1,2630956
+1,South China University of Techology,China:1,2605800
+1,South Medical University,China:1,2608481
+1,Southeast Universaty,China:1,2615253
+1,Southeast University Road,China:1,2610714
+1,Southeast Univetsity,China:1,2613997
+1,Southeast Unversity,China:1,2611416
+1,Southweatern University of Finance and,China:1,2607483
+1,Southwest Jiao Tong University,China:1,2616002
+1,"Southwest Jiaotong University, China",China:1,2604626
+1,Southwest Medical University,China:1,2629400
+1,Southwest University of Science,China:1,2600269
+1,Southwestern University of Finance and Ec,China:1,2614075
+1,SouthwestJiaotong University,China:1,2629643
+1,SouthwestUniversity,China:1,2613727
+1,Soutneast University,China:1,2608577
+1,Springfield College,USA:1,2631264
+1,Springfield Commonwealth Academy,USA:1,2624384
+1,Springfield Commonwealth Academy (EEI,China:1,2624436
+1,Sri Kuala Lumpur International School,Malaysia:1,2632764
+1,St. Stephen's School,Italy:1,2610454
+1,Stanford University,USA:1,2600747
+1,Step By Step School,India:1,2631503
+1,SUIBE,China:1,2602227
+1,Sun Yat - sen University,China:1,2619405
+1,Sun Yat sen university,China:1,2628589
+1,Sun Yat Sen University,China:1,2624768
+1,Sun Yat-sen University(Shenzhen Campus),China:1,2632450
+1,Sun Yat-sen University.,China:1,2628834
+1,Sun Yat-sen University‬,China:1,2631326
+1,Sun yat-sun University,China:1,2613028
+1,Sun Yatse-n University,China:1,2618617
+1,SUN YET-SEN UNIVERSITY,China:1,2621049
+1,Sun Yet-sen University,China:1,2613717
+1,SUNY Fredonia,USA:1,2607706
+1,SunYat-Sen University,China:1,2627223
+1,sustech,China:1,2607613
+1,Suzhou Centennial College,China:1,2603512
+1,Suzhou Foreign Language School,China:1,2606259
+1,Suzhou High School Of Jiangsu Province,China:1,2613967
+1,Suzhou University,China:1,2607947
+1,SuZhou University,China:1,2610752
+1,SWU,China:1,2611680
+1,SYSU university,China:1,2616257
+1,SZTU,China:1,2606557
+1,Taihu University of Wuxi,China:1,2601506
+1,Taishan College of Science and Technology,China:1,2610295
+1,Taizhou Vocational College of Science &,China:1,2602021
+1,"Tan Kah Kee College, Xiamen University",China:1,2630908
+1,Taylor University,USA:1,2619576
+1,TELKOM UNIVERSITY,Indonesia:1,2618662
+1,Texas A&M University,USA:1,2633023
+1,The Capital University And Business,China:1,2626146
+1,The Chinese University of Hong (Shenzhen),China:1,2632009
+1,"The Chinese University of Hong Kong ,",China:1,2614032
+1,"The Chinese University of Hong Kong ,Shen",China:1,2626265
+1,The Chinese University of Hong Kong(Shen,China:1,2632888
+1,"The Chinese University of Hong Kong,Shen",China:1,2622553
+1,The Chinese University Of Hongkong,China:1,2606729
+1,The Chinese University of Hongkong,China:1,2627967
+1,The Chinese University of HongKong,China:1,2632174
+1,the Chinese University of HongKong,Hong Kong (SAR) China:1,2617859
+1,The College of Wooster,USA:1,2631366
+1,The Engineering &Technical College of,China:1,2601626
+1,The Hong Kong Polytecnic University,Hong Kong (SAR) China:1,2631821
+1,The Nankai University,China:1,2628182
+1,The North University of China,China:1,2621069
+1,The Northeast University,China:1,2617670
+1,The ocean. University of China,China:1,2627774
+1,The South China University of Technology,China:1,2632117
+1,The Southwestern University of Finance,China:1,2629015
+1,The Sun Yat-sen University,China:1,2620494
+1,The University of International Business,China:1,2604952
+1,The University of New South Wales,Australia:1,2604964
+1,"The University of Nottingham,Ningbo China",China:1,2609492
+1,The University of Nottingham-Ningbo,China:1,2602066
+1,The University of Queensland,Australia:1,2600121
+1,the university of Sydney,China:1,2631755
+1,The University of sydney,Australia:1,2631641
+1,The Wuhan University,China:1,2623426
+1,Tianfu College of Southwestern University,China:1,2631461
+1,Tianjin Foreign Study University,China:1,2601846
+1,Tianjin Gongye university,China:1,2620348
+1,Tianjin Railway Technical and Vocational,China:1,2604545
+1,Tianjin Renai College,China:1,2628142
+1,TIANJIN RENAI COLLEGE,China:1,2605564
+1,Tianjin Sino-German University of Applied,China:1,2603519
+1,Tianjin University of Financial and,China:1,2611436
+1,Tianjin University of Sports,China:1,2610319
+1,Tianjin University&Xi'an University of Posts,China:1,2626104
+1,"Tianjin University,Tianjin,China",China:1,2628948
+1,Tianjin Vocational Institute,China:1,2627881
+1,Tibet University,China:1,2607144
+1,Tohoku University,China:1,2616855
+1,"Tongji University, China",China:1,2624777
+1,Tongji Zhejiang College,China:1,2632967
+1,Tower Hill School,USA:1,2626684
+1,Tsinghua University High School Zhixin,China:1,2609846
+1,"UC, Irvine",USA:1,2607195
+1,UESTC (University of Electronic Science,China:1,2604296
+1,United States Military Academy,USA:1,2632795
+1,Universidad Nacional de Colombia,Colombia:1,2631686
+1,Universitas Airlangga,Indonesia:1,2618768
+1,UNIVERSITAS BHAYANGKARA JAKARTA,Indonesia:1,2618679
+1,Universitas Budi Luhur,Indonesia:1,2618653
+1,Universitas Gadjah Mada,Indonesia:1,2618436
+1,Universitas Islam Balitar Blitar,Indonesia:1,2618620
+1,Universitas Jambi,Indonesia:1,2618626
+1,Universitas Padjadjaran,Indonesia:1,2618658
+1,UNIVERSITAS PENDIDIKAN INDONESIA,Indonesia:1,2618615
+1,Universitas Teknologi Yogyakarta,Indonesia:1,2618612
+1,UNIVERSITAS TRISAKTI,Indonesia:1,2618614
+1,Universitas Udayana,Indonesia:1,2618622
+1,UNIVERSITI XIAMEN MALAYSIA,Malaysia:1,2600557
+1,University of Alabama at Birmingham,USA:1,2625555
+1,University of Arizona,USA:1,2632142
+1,University of Bern,Switzerland:1,2614572
+1,University of Birmingham,United Kingdom:1,2623409
+1,University of Birminghan,United Kingdom:1,2630322
+1,"University of California, Berkeley",USA:1,2633024
+1,"University of California, Davis",USA:1,2604890
+1,University of Cambridge,United Kingdom:1,2605759
+1,University of Cambridge - Tilburg University,United Kingdom:1,2602467
+1,University of Cincinnati,USA:1,2600772
+1,University of Debrecen,Hungary:1,2617907
+1,University of Dundee,United Kingdom:1,2607961
+1,University of Electrionic Science and,China:1,2628763
+1,University of Electronics and Science,China:1,2616962
+1,University of Essex,United Kingdom:1,2625445
+1,University of International Businesss and,China:1,2629490
+1,University of International Bussiness and,China:1,2601839
+1,University of Lancashire,China:1,2622003
+1,University of Leeds,United Kingdom:1,2631223
+1,University of Liverpool,China:1,2614590
+1,University of Macao,China:1,2604443
+1,University of Manchester,United Kingdom:1,2632233
+1,University of Massachusetts Amherst,USA:1,2631668
+1,University of Minnesota,China:1,2625617
+1,University of Minnesota - Twin Cities,China:1,2631685
+1,University of Montevallo,USA:1,2621330
+1,University of New South Wales,USA:1,2631681
+1,University of North Carolina Charlotte,USA:1,2631671
+1,University of Nottingham in Ningbo China,China:1,2617266
+1,University of Nottingham Ningbo,China:1,2631187
+1,"University of Nottingham Ningbo, China",China:1,2629655
+1,"University of Nottingham, Ning bo, China",China:1,2610509
+1,"University of Nottingham, Ningbo China",China:1,2620324
+1,University of Pittsburgh,China:1,2630203
+1,University of Reading,United Kingdom:1,2604342
+1,University of Rochester,USA:1,2619977
+1,University Of Science & Technology Beijing,China:1,2631929
+1,University of Science & Technology Beijing,China:1,2616349
+1,University of Shanghai,China:1,2631860
+1,University of South Carolina,USA:1,2602049
+1,University of Sydney,Australia:1,2629332
+1,University of Texas at austin,USA:1,2628307
+1,University of the Chinese Academy of,China:1,2614846
+1,University of Toronto,Canada:1,2609976
+1,University of Toronto - Mississauga,Canada:1,2633010
+1,University of Utah,USA:1,2618069
+1,University of Virginia,USA:1,2631856
+1,University of Warwick,United Kingdom:1,2601192
+1,"University of Washington, Seattle",USA:1,2631714
+1,University of Washinton,USA:1,2618130
+1,University of Wisconsin - Madison,USA:1,2604980
+1,University of Wisconsin Madison,USA:1,2611882
+1,University Putra Malaysia,China:1,2616384
+1,Università Bocconi,Italy:1,2609941
+1,Unversity of Science and Technology of,China:1,2631541
+1,UW-Madison,USA:1,2622010
+1,Village Christian High School,USA:1,2633035
+1,Virginia Polytechnic Institute and State,USA:1,2622915
+1,Virginia Tech,USA:1,2628477
+1,Wake Forest University,USA:1,2629901
+1,Wanjiang University of Technology,China:1,2613467
+1,Wannan Medical College,China:1,2628689
+1,Wannan Medical University,China:1,2631888
+1,Weifang University,China:1,2617915
+1,Wenhua College,China:1,2625935
+1,WenZhou Kean University,China:1,2601375
+1,WenZhou-Kean Universiy,China:1,2603937
+1,Westlake University,China:1,2622977
+1,Westmont High School,USA:1,2632869
+1,Whuhan University,China:1,2624845
+1,Williams College,USA:1,2631609
+1,Wu han university of science and,China:1,2613650
+1,Wuchangshouyi University,China:1,2616556
+1,Wuhan Cogdel Cranleigh High School,China:1,2627506
+1,Wuhan Foreign Languages School,China:1,2632599
+1,Wuhan uniersity,China:1,2628931
+1,"Wuhan University, China",China:1,2609235
+1,"Wuhan University, Wuhan, Hubei, China",China:1,2602609
+1,Wuhan Universty,China:1,2620865
+1,Wuyi University Institution,China:1,2608590
+1,Wuyi university&Changzhou Institute of,China:1,2632613
+1,Wuyi University(Fujian),China:1,2609497
+1,XDU,China:1,2623913
+1,Xi 'an International Studies University,China:1,2628359
+1,Xi 'an Jiaotong University,China:1,2610866
+1,Xi 'an Shiyou University,China:1,2603571
+1,Xi 'an University of Posts and,China:1,2629080
+1,Xi an University Of Science And Technology,China:1,2601149
+1,Xi'an High-Tech University,China:1,2616115
+1,Xi'an Innovation College of Yan'an,China:1,2603260
+1,Xi'an Jiao Tong Liverpool University,China:1,2630315
+1,Xi'an Jiaotong Liverpool University,China:1,2621421
+1,XI'AN JIAOTONG UNIVERSITY CITY,China:1,2604103
+1,Xi'an Petroleum University,China:1,2604207
+1,Xi'an University,China:1,2631421
+1,XI'AN University of,China:1,2632440
+1,Xi'an University of,China:1,2610001
+1,Xi'an University of Finance and Economics,China:1,2624277
+1,Xi'an Vocational University of Automobile,China:1,2619709
+1,Xi`an International Studies University,China:1,2631928
+1,Xi`an Jiaotong University,China:1,2618232
+1,Xi`an University Of Science And,China:1,2600172
+1,Xiamen Uninversity,China:1,2612525
+1,Xiamen Univerisity Malaysia,Malaysia:1,2604569
+1,Xiamen Universicity,China:1,2612079
+1,Xiamen University ( Xiang'an Campus ),China:1,2603842
+1,Xiamen University Malasya,China:1,2620465
+1,Xiamen University of Malaysia,China:1,2603952
+1,XIAMEN UNIVERSITY TAN KAH KEE,China:1,2609137
+1,Xian International Studies University,China:1,2628839
+1,Xiangtan Institute of Technology,China:1,2616028
+1,Xianjiaotong University,China:1,2604161
+1,XianJiaotong University,China:1,2611759
+1,XianJiaotong- Liverpool University,China:1,2628012
+1,XianJiaotongLiverpool University,China:1,2613805
+1,XIDAIN UNIVERSITY,China:1,2622304
+1,Xinan university,China:1,2632468
+1,XingTai University,China:1,2612363
+1,Xinjiang Institute of Engineering,China:1,2619789
+1,Xinjiang Normal University,China:1,2600704
+1,Xinjiang Police College,China:1,2607991
+1,Xinjiang University of Finance and,China:1,2624184
+1,Xinjiang University(Boda Campus),China:1,2628863
+1,Xinxiang University,China:1,2619765
+1,Xizang Agricultural and Animal Husbandry,China:1,2601755
+1,Xizang University (Najin Campus),China:1,2602495
+1,Xi‘an International Studies University,China:1,2613867
+1,Xi‘an Jiaotong University,China:1,2616409
+1,Xi‘an Jiaotong-Liverpool University,China:1,2628054
+1,Xi‘an Shiyou University,China:1,2613190
+1,Xi’an Aeronautical Polytechnic Institute,China:1,2632324
+1,Xi’an Polytechnic University,China:1,2606120
+1,Xi’an University of Finance and Economics,China:1,2617823
+1,XJTLU University,China:1,2626674
+1,"Xu Hai College , China University of Mining",China:1,2619439
+1,Xu Hai College of China University of,China:1,2613256
+1,"Xuhai College ,China University of Mining",China:1,2624226
+1,Xuhai College of China University of Mining,China:1,2630123
+1,"XUHAI COLLEGE, CHINA UNIVERSITY OF",China:1,2613282
+1,Xuzhou Institute of Industrial Technology,China:1,2600888
+1,Yale University,USA:1,2632883
+1,Yancheng Institute Of Technology,China:1,2600007
+1,Yanching institute of Technology,China:1,2621097
+1,Yangzhou Univercity,China:1,2624256
+1,Yantai Institute of Science and Technology,China:1,2615241
+1,Yantai Institute of Technology,China:1,2613575
+1,Yan’an University,China:1,2624681
+1,Yinchuan University of Energy,China:1,2601471
+1,Yonsei University,South Korea:1,2604192
+1,Yu Lin Energy Technology Vocational,China:1,2604112
+1,Yunan University of Finance and,China:1,2610388
+1,Yunnan College Of Business Management,China:1,2630160
+1,Yunnan Industry and Information Vocational,China:1,2629962
+1,Yunnan University of Business,China:1,2631833
+1,Yunnan University of Economics and,China:1,2629954
+1,Yunnan Universuity of Finance and,China:1,2619831
+1,ZaoZhuang University,China:1,2609396
+1,Zaozhuang University,China:1,2603702
+1,Zhang,China:1,2623441
+1,Zhangjiajie College,China:1,2613060
+1,Zhejiang A & F University,China:1,2604421
+1,Zhejiang A&F University Jiyang College,China:1,2632284
+1,Zhejiang Business College,China:1,2610370
+1,Zhejiang Fashion Institute of Technology,China:1,2628920
+1,Zhejiang Gongshang Univercity,China:1,2631544
+1,Zhejiang Pharmaceutical University,China:1,2612041
+1,Zhejiang Polytechnic University of,China:1,2610259
+1,Zhejiang Uiiversity,China:1,2629849
+1,Zhejiang University International Campus,China:1,2616520
+1,Zhejiang University of Science &,China:1,2610500
+1,Zhejiang University of Science and,China:1,2604561
+1,Zhejiang University of Water Resources,China:1,2607090
+1,Zhejiang University-University of Illinois,China:1,2632261
+1,Zhejiang Yuexiu University,China:1,2616991
+1,Zheng Zhou University,China:1,2632678
+1,Zhengzhou College of Finance and,China:1,2602646
+1,Zhengzhou Shengda University Of,China:1,2602638
+1,Zhengzhou Uinversity of Aeronautics,China:1,2620922
+1,Zhjiang University of Water Resources and,China:1,2608698
+1,Zhonghuan Informaion College Tianjin,China:1,2623635
+1,ZHONGNAN UNIVERSITY OF ECONOMICS,China:1,2625487
+1,ZhongNan University of Economics and,China:1,2607062
+1,Zhongshan University,China:1,2629411
+1,zhongyangcaijindaxue,China:1,2620391
+1,Zhongyuan Institute of Science and,China:1,2606678
+1,Zhoukou Normal University,China:1,2630712
+1,Zhuhai Campus of Beijing Normal,China:1,2618335
+1,Zhujiang College of South China,China:1,2603893
+1,"Zhujiang College,South China Agricultural",China:1,2630916
+1,ZJU-UIUC Institute,China:1,2600450
+1,Zunyi Normal University,China:1,2609236

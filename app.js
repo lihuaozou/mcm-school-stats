@@ -566,7 +566,7 @@ function bindSearch() {
 }
 
 async function init() {
-  const response = await fetch("data/awards-cn.json?v=20260511-certnames");
+  const response = await fetch("data/awards-cn.json?v=20260511-ustb-ustc");
   const data = await response.json();
   state.records = data.records;
   state.summary = data.summary;

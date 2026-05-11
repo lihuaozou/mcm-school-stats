@@ -64,7 +64,7 @@ http://127.0.0.1:8000/
 ```text
 http://127.0.0.1:8000/?school=南京邮电大学
 http://127.0.0.1:8000/?school=Nanjing%20University%20of%20Posts%20and%20Telecommunications
-http://127.0.0.1:8000/?school=2603082
+http://127.0.0.1:8000/?school=2600001
 ```
 
 ## 重新生成数据
